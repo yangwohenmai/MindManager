@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="3.1.6000.41874" document_version="3.0.0.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org-->
+  <information>
+    <author>Ryan</author>
+    <company>
+    </company>
+    <version>3.0</version>
+    <description>
+    </description>
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts active_chart="0">
+    <chart name="新页面 1" type="MindMap">
+      <remark>
+      </remark>
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+        <widget_margin>1</widget_margin>
+        <picture_thumb_size>100, 100</picture_thumb_size>
+      </style>
+      <nodes>
+        <node id="1" text="成交量" x="284" y="378" width="66" height="41" text_b="12, 12, 42, 17">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node id="2" text="假大量" x="158" y="388" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="144, 392, 13, 13">
+              <nodes>
+                <node id="3" text="主力互倒" x="20" y="388" width="58" height="21" text_b="2, 2, 54, 17" />
+              </nodes>
+              <lines>
+                <line target="3" begin_side="Left" end_side="Right" begin_rect="145, 388, 59, 21" end_rect="20, 388, 58, 21" />
+              </lines>
+            </node>
+            <node id="4" text="真大量" x="430" y="388" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="477, 392, 13, 13">
+              <nodes>
+                <node id="19" text="低位大量" x="556" y="372" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="615, 376, 13, 13">
+                  <nodes>
+                    <node id="6" text="小价柱" x="694" y="372" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="741, 376, 13, 13">
+                      <nodes>
+                        <node id="5" text="被动吸筹" x="820" y="248" width="58" height="21" text_b="2, 2, 54, 17" />
+                        <node id="7" text="主动吸筹" x="820" y="388" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="879, 392, 13, 13">
+                          <nodes>
+                            <node id="15" text="根据卖在买先" x="958" y="310" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="1042, 314, 13, 13">
+                              <nodes>
+                                <node id="16" text="一定是散户抛售" x="1121" y="279" width="95" height="21" text_b="2, 2, 91, 17" />
+                                <node id="17" text="这个抛售一定是主力洗盘造成的，主力在下方接收洗出的筹码" x="1121" y="310" width="342" height="21" text_b="2, 2, 338, 17" />
+                                <node id="18" text="因为小价柱，一定不是主力主动买入，如果主力强行买入一定会拉升股价" x="1121" y="341" width="404" height="21" text_b="2, 2, 400, 17" />
+                              </nodes>
+                              <lines>
+                                <line target="16" begin_side="Right" end_side="Left" begin_rect="958, 310, 96, 21" end_rect="1121, 279, 95, 21" />
+                                <line target="17" begin_side="Right" end_side="Left" begin_rect="958, 310, 96, 21" end_rect="1121, 310, 342, 21" />
+                                <line target="18" begin_side="Right" end_side="Left" begin_rect="958, 310, 96, 21" end_rect="1121, 341, 404, 21" />
+                              </lines>
+                            </node>
+                            <node id="9" text="为什么会有大量卖盘" x="958" y="419" width="120" height="21" text_b="2, 2, 116, 17" fold_btn_b="1079, 423, 13, 13">
+                              <nodes>
+                                <node id="10" text="三者共存" x="1158" y="372" width="58" height="21" text_b="2, 2, 54, 17" />
+                                <node id="11" text="因为大盘恐慌而产生的大量卖盘" x="1158" y="403" width="181" height="21" text_b="2, 2, 177, 17" />
+                                <node id="12" text="因为下跌趋势太大产生的大量卖盘" x="1158" y="434" width="194" height="21" text_b="2, 2, 190, 17" />
+                                <node id="13" text="因为盘中分时洗盘手法吓人而产生的大量卖盘" x="1158" y="465" width="256" height="21" text_b="2, 2, 252, 17" />
+                              </nodes>
+                              <lines>
+                                <line target="10" begin_side="Right" end_side="Left" begin_rect="958, 419, 133, 21" end_rect="1158, 372, 58, 21" />
+                                <line target="11" begin_side="Right" end_side="Left" begin_rect="958, 419, 133, 21" end_rect="1158, 403, 181, 21" />
+                                <line target="12" begin_side="Right" end_side="Left" begin_rect="958, 419, 133, 21" end_rect="1158, 434, 194, 21" />
+                                <line target="13" begin_side="Right" end_side="Left" begin_rect="958, 419, 133, 21" end_rect="1158, 465, 256, 21" />
+                              </lines>
+                            </node>
+                            <node id="14" text="主力引起了卖盘，然后买入，这可能是吸筹的开始，也可能是反转的开始，是一种止跌信号" x="958" y="496" width="503" height="21" text_b="2, 2, 499, 17" />
+                          </nodes>
+                          <lines>
+                            <line target="15" begin_side="Right" end_side="Left" begin_rect="820, 388, 71, 21" end_rect="958, 310, 83, 21" />
+                            <line target="9" begin_side="Right" end_side="Left" begin_rect="820, 388, 71, 21" end_rect="958, 419, 120, 21" />
+                            <line target="14" begin_side="Right" end_side="Left" begin_rect="820, 388, 71, 21" end_rect="958, 496, 503, 21" />
+                          </lines>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="5" begin_side="Right" end_side="Left" begin_rect="694, 372, 59, 21" end_rect="820, 248, 58, 21" />
+                        <line target="7" begin_side="Right" end_side="Left" begin_rect="694, 372, 59, 21" end_rect="820, 388, 58, 21" />
+                      </lines>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="6" begin_side="Right" end_side="Left" begin_rect="556, 372, 71, 21" end_rect="694, 372, 46, 21" />
+                  </lines>
+                </node>
+                <node id="20" text="高位大量" x="556" y="527" width="58" height="21" text_b="2, 2, 54, 17" />
+              </nodes>
+              <lines>
+                <line target="19" begin_side="Right" end_side="Left" begin_rect="430, 388, 59, 21" end_rect="556, 372, 58, 21" />
+                <line target="20" begin_side="Right" end_side="Left" begin_rect="430, 388, 59, 21" end_rect="556, 527, 58, 21" />
+              </lines>
+            </node>
+          </nodes>
+          <lines>
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="284, 378, 66, 41" end_rect="158, 388, 46, 21" />
+            <line target="4" begin_side="Right" end_side="Left" begin_rect="284, 378, 66, 41" end_rect="430, 388, 46, 21" />
+          </lines>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>
