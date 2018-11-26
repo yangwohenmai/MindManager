@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="3.1.6000.41874" document_version="3.0.0.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org-->
+  <information>
+    <author>Administrator</author>
+    <company>
+    </company>
+    <version>3.0</version>
+    <description>
+    </description>
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts active_chart="0">
+    <chart name="新页面 1" type="MindMap">
+      <remark>
+      </remark>
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+        <widget_margin>1</widget_margin>
+        <picture_thumb_size>100, 100</picture_thumb_size>
+      </style>
+      <nodes>
+        <node id="1" text="指标" x="554" y="378" width="53" height="40" text_b="12, 12, 29, 16">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node id="7" text="选股组合" x="416" y="294" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="402, 298, 13, 13">
+              <nodes>
+                <node id="8" text="早盘三倍量策略" x="241" y="294" width="95" height="20" text_b="2, 2, 91, 16" />
+              </nodes>
+              <lines>
+                <line target="8" begin_side="Left" end_side="Right" begin_rect="403, 294, 71, 20" end_rect="241, 294, 95, 20" />
+              </lines>
+            </node>
+            <node id="2" text="筹码策略" x="416" y="388" width="58" height="20" text_b="2, 2, 54, 16" />
+            <node id="3" text="中线组合" x="416" y="482" width="58" height="20" text_b="2, 2, 54, 16" />
+            <node id="4" text="追涨组合" x="687" y="294" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="746, 298, 13, 13">
+              <nodes>
+                <node id="9" text="空中加油" x="825" y="294" width="58" height="20" text_b="2, 2, 54, 16" />
+              </nodes>
+              <lines>
+                <line target="9" begin_side="Right" end_side="Left" begin_rect="687, 294, 71, 20" end_rect="825, 294, 58, 20" />
+              </lines>
+            </node>
+            <node id="6" text="经典组合" x="687" y="388" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="746, 392, 13, 13">
+              <nodes>
+                <node id="10" text="三板斧" x="825" y="388" width="46" height="20" text_b="2, 2, 42, 16" />
+              </nodes>
+              <lines>
+                <line target="10" begin_side="Right" end_side="Left" begin_rect="687, 388, 71, 20" end_rect="825, 388, 46, 20" />
+              </lines>
+            </node>
+            <node id="5" text="抄底策略" x="687" y="482" width="58" height="20" text_b="2, 2, 54, 16" />
+          </nodes>
+          <lines>
+            <line target="7" begin_side="Left" end_side="Right" begin_rect="554, 378, 53, 40" end_rect="416, 294, 58, 20" />
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="554, 378, 53, 40" end_rect="416, 388, 58, 20" />
+            <line target="3" begin_side="Left" end_side="Right" begin_rect="554, 378, 53, 40" end_rect="416, 482, 58, 20" />
+            <line target="4" begin_side="Right" end_side="Left" begin_rect="554, 378, 53, 40" end_rect="687, 294, 58, 20" />
+            <line target="6" begin_side="Right" end_side="Left" begin_rect="554, 378, 53, 40" end_rect="687, 388, 58, 20" />
+            <line target="5" begin_side="Right" end_side="Left" begin_rect="554, 378, 53, 40" end_rect="687, 482, 58, 20" />
+          </lines>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>
