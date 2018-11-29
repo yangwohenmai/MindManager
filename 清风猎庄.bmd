@@ -31,7 +31,7 @@
         <picture_thumb_size>100, 100</picture_thumb_size>
       </style>
       <nodes>
-        <node id="1" text="体系" x="534" y="378" width="53" height="41" text_b="12, 12, 29, 17">
+        <node id="1" text="体系" x="534" y="377" width="53" height="41" text_b="12, 12, 29, 17">
           <style>
             <back_color>Silver</back_color>
             <fore_color>Black</fore_color>
@@ -39,233 +39,111 @@
             <padding>12</padding>
           </style>
           <nodes>
-            <node id="2" text="选股策略" x="396" y="192" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="382, 196, 13, 13">
+            <node id="2" text="选股策略" x="396" y="207" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="382, 211, 13, 13">
               <nodes>
-                <node id="71" text="选股方法" x="258" y="161" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="244, 165, 13, 13">
+                <node id="71" text="选股方法" x="258" y="176" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="244, 180, 13, 13">
                   <nodes>
-                    <node id="116" text="指标" x="28736" y="19987" width="33" height="20" text_b="2, 2, 29, 16" />
-                    <node id="117" text="倒拔垂杨柳" x="28699" y="20017" width="70" height="20" text_b="2, 2, 66, 16" />
-                    <node id="118" text="双龙战法" x="28711" y="20047" width="58" height="20" text_b="2, 2, 54, 16" />
-                    <node id="88" text="早盘选股" x="28711" y="20077" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="28697, 20081, 13, 13">
+                    <node id="116" text="指标" x="29296" y="20384" width="33" height="20" text_b="2, 2, 29, 16" />
+                    <node id="117" text="倒拔垂杨柳" x="29259" y="20414" width="70" height="20" text_b="2, 2, 66, 16" />
+                    <node id="118" text="双龙战法" x="29271" y="20444" width="58" height="20" text_b="2, 2, 54, 16" />
+                    <node id="88" text="早盘选股" x="29271" y="20474" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="29257, 20478, 13, 13">
                       <nodes>
-                        <node id="89" text="321线" x="411960" y="275673" width="39" height="20" text_b="2, 2, 35, 16" />
-                        <node id="90" text="捕捞季节金叉" x="411916" y="275703" width="83" height="20" text_b="2, 2, 79, 16" />
-                        <node id="91" text="早盘三倍量" x="411929" y="275733" width="70" height="20" text_b="2, 2, 66, 16" />
+                        <node id="89" text="321线" x="412520" y="276070" width="39" height="20" text_b="2, 2, 35, 16" />
+                        <node id="90" text="捕捞季节金叉" x="412476" y="276100" width="83" height="20" text_b="2, 2, 79, 16" />
+                        <node id="91" text="早盘三倍量" x="412489" y="276130" width="70" height="20" text_b="2, 2, 66, 16" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="92" text="上升回档" x="28711" y="20122" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="28697, 20126, 13, 13">
+                    <node id="92" text="上升回档" x="29271" y="20519" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="29257, 20523, 13, 13">
                       <nodes>
-                        <node id="119" text="空中加油" x="28573" y="20107" width="58" height="20" text_b="2, 2, 54, 16" />
-                        <node id="120" text="鱼头理论" x="28573" y="20137" width="58" height="20" text_b="2, 2, 54, 16" />
+                        <node id="119" text="空中加油" x="29133" y="20504" width="58" height="20" text_b="2, 2, 54, 16" />
+                        <node id="120" text="鱼头理论" x="29133" y="20534" width="58" height="20" text_b="2, 2, 54, 16" />
                       </nodes>
                       <lines>
-                        <line target="119" begin_side="Left" end_side="Right" begin_rect="28698, 20122, 71, 20" end_rect="28573, 20107, 58, 20" />
-                        <line target="120" begin_side="Left" end_side="Right" begin_rect="28698, 20122, 71, 20" end_rect="28573, 20137, 58, 20" />
+                        <line target="119" begin_side="Left" end_side="Right" begin_rect="29258, 20519, 71, 20" end_rect="29133, 20504, 58, 20" />
+                        <line target="120" begin_side="Left" end_side="Right" begin_rect="29258, 20519, 71, 20" end_rect="29133, 20534, 58, 20" />
                       </lines>
                     </node>
                   </nodes>
                   <lines />
                 </node>
-                <node id="3" text="可选" x="283" y="192" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="269, 196, 13, 13">
+                <node id="3" text="可选" x="283" y="207" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="269, 211, 13, 13">
                   <nodes>
-                    <node id="4" text="趋势突破" x="478128" y="316314" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="478114, 316318, 13, 13">
+                    <node id="4" text="趋势突破" x="478688" y="316711" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="478674, 316715, 13, 13">
                       <nodes>
-                        <node id="5" text="要用趋势做票我们的介入点就得找图中黄色箭头所示的位置进仓，否者除此之外的任何位置进场都是不安全的，或者经不起洗盘的" x="728996" y="486005" width="713" height="20" text_b="2, 2, 709, 16" />
+                        <node id="5" text="要用趋势做票我们的介入点就得找图中黄色箭头所示的位置进仓，否者除此之外的任何位置进场都是不安全的，或者经不起洗盘的" x="729556" y="486402" width="713" height="20" text_b="2, 2, 709, 16" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="6" text="热点题材" x="478128" y="316344" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="478114, 316348, 13, 13">
+                    <node id="6" text="热点题材" x="478688" y="316741" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="478674, 316745, 13, 13">
                       <nodes>
-                        <node id="7" text="股性活跃的" x="598512" y="392933" width="70" height="20" text_b="2, 2, 66, 16" />
-                        <node id="8" text="有延续性的" x="598512" y="392963" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="598583, 392967, 13, 13">
+                        <node id="7" text="股性活跃的" x="599072" y="393330" width="70" height="20" text_b="2, 2, 66, 16" />
+                        <node id="8" text="有延续性的" x="599072" y="393360" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="599143, 393364, 13, 13">
                           <nodes>
-                            <node id="9" text="最明智的做法应该是在一个题材个股出现了连续几天的健康上涨之后在回调期去找买点进行介入，如果全是已经破位从底部刚起来的，并没有趋势上的突破，那么通过压力与支撑的判定&#xD;&#xA;" x="727841" y="484856" width="1009" height="20" text_b="2, 2, 1005, 16" />
+                            <node id="9" text="最明智的做法应该是在一个题材个股出现了连续几天的健康上涨之后在回调期去找买点进行介入，如果全是已经破位从底部刚起来的，并没有趋势上的突破，那么通过压力与支撑的判定&#xD;&#xA;" x="728401" y="485253" width="1009" height="20" text_b="2, 2, 1005, 16" />
                           </nodes>
                           <lines />
                         </node>
                       </nodes>
                       <lines />
                     </node>
-                    <node id="10" text="股性活跃" x="478128" y="316374" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="478114, 316378, 13, 13">
+                    <node id="10" text="股性活跃" x="478688" y="316771" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="478674, 316775, 13, 13">
                       <nodes>
-                        <node id="11" text="经常出现涨停" x="726909" y="484075" width="83" height="20" text_b="2, 2, 79, 16" />
-                        <node id="12" text="经常连续上涨" x="726909" y="484105" width="83" height="20" text_b="2, 2, 79, 16" />
+                        <node id="11" text="经常出现涨停" x="727469" y="484472" width="83" height="20" text_b="2, 2, 79, 16" />
+                        <node id="12" text="经常连续上涨" x="727469" y="484502" width="83" height="20" text_b="2, 2, 79, 16" />
                       </nodes>
                       <lines />
                     </node>
                   </nodes>
                   <lines />
                 </node>
-                <node id="13" text="四大不选" x="258" y="223" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="244, 227, 13, 13">
+                <node id="13" text="四大不选" x="258" y="238" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="244, 242, 13, 13">
                   <nodes>
-                    <node id="14" text="股性差不活跃" x="599464" y="393729" width="83" height="20" text_b="2, 2, 79, 16" />
-                    <node id="15" text="有跳空缺口" x="599464" y="393759" width="70" height="20" text_b="2, 2, 66, 16" />
-                    <node id="16" text="业绩亏损" x="599464" y="393789" width="58" height="20" text_b="2, 2, 54, 16" />
-                    <node id="17" text="高位或高位横盘" x="599464" y="393819" width="95" height="20" text_b="2, 2, 91, 16" />
+                    <node id="14" text="股性差不活跃" x="600024" y="394126" width="83" height="20" text_b="2, 2, 79, 16" />
+                    <node id="15" text="有跳空缺口" x="600024" y="394156" width="70" height="20" text_b="2, 2, 66, 16" />
+                    <node id="16" text="业绩亏损" x="600024" y="394186" width="58" height="20" text_b="2, 2, 54, 16" />
+                    <node id="17" text="高位或高位横盘" x="600024" y="394216" width="95" height="20" text_b="2, 2, 91, 16" />
                   </nodes>
                   <lines />
                 </node>
               </nodes>
               <lines>
-                <line target="71" begin_side="Left" end_side="Right" begin_rect="383, 192, 71, 21" end_rect="258, 161, 58, 21" />
-                <line target="3" begin_side="Left" end_side="Right" begin_rect="383, 192, 71, 21" end_rect="283, 192, 33, 21" />
-                <line target="13" begin_side="Left" end_side="Right" begin_rect="383, 192, 71, 21" end_rect="258, 223, 58, 21" />
+                <line target="71" begin_side="Left" end_side="Right" begin_rect="383, 207, 71, 21" end_rect="258, 176, 58, 21" />
+                <line target="3" begin_side="Left" end_side="Right" begin_rect="383, 207, 71, 21" end_rect="283, 207, 33, 21" />
+                <line target="13" begin_side="Left" end_side="Right" begin_rect="383, 207, 71, 21" end_rect="258, 238, 58, 21" />
               </lines>
             </node>
-            <node id="100" text="建仓/补仓" x="391" y="328" width="63" height="21" text_b="2, 2, 59, 17" fold_btn_b="377, 332, 13, 13">
+            <node id="100" text="建仓/补仓" x="391" y="327" width="63" height="21" folded="True" text_b="2, 2, 59, 17" fold_btn_b="377, 331, 13, 13">
               <nodes>
-                <node id="142" text="建仓" x="278" y="312" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="264, 316, 13, 13">
+                <node id="142" text="建仓" x="838" y="709" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="824, 713, 13, 13">
                   <nodes>
-                    <node id="80" text="建仓日选择" x="33689" y="23321" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="33675, 23325, 13, 13">
+                    <node id="80" text="建仓日选择" x="34249" y="23718" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="34235, 23722, 13, 13">
                       <nodes>
-                        <node id="62" text="跌到支撑线不破，有量能支撑" x="256599" y="181782" width="169" height="20" text_b="2, 2, 165, 16" />
-                        <node id="63" text="放量突破压力线，量能健康，回踩不破" x="256599" y="181812" width="219" height="20" text_b="2, 2, 215, 16" />
-                        <node id="64" text="突破趋势线，分时量能健康" x="256599" y="181842" width="157" height="20" text_b="2, 2, 153, 16" />
-                        <node id="65" text="捕捞季节金叉" x="256599" y="181872" width="83" height="20" folded="True" text_b="2, 2, 79, 16" fold_btn_b="256683, 181876, 13, 13">
+                        <node id="62" text="跌到支撑线不破，有量能支撑" x="257159" y="182179" width="169" height="20" text_b="2, 2, 165, 16" />
+                        <node id="63" text="放量突破压力线，量能健康，回踩不破" x="257159" y="182209" width="219" height="20" text_b="2, 2, 215, 16" />
+                        <node id="64" text="突破趋势线，分时量能健康" x="257159" y="182239" width="157" height="20" text_b="2, 2, 153, 16" />
+                        <node id="65" text="捕捞季节金叉" x="257159" y="182269" width="83" height="20" folded="True" text_b="2, 2, 79, 16" fold_btn_b="257243, 182273, 13, 13">
                           <nodes>
-                            <node id="82" text="弱势金叉" x="277553" y="198100" width="58" height="20" text_b="2, 2, 54, 16" />
-                            <node id="83" text="强势金叉" x="277553" y="198130" width="58" height="20" text_b="2, 2, 54, 16" />
+                            <node id="82" text="弱势金叉" x="278113" y="198497" width="58" height="20" text_b="2, 2, 54, 16" />
+                            <node id="83" text="强势金叉" x="278113" y="198527" width="58" height="20" text_b="2, 2, 54, 16" />
                           </nodes>
                           <lines />
                         </node>
                       </nodes>
                       <lines />
                     </node>
-                    <node id="81" text="分时买卖点" x="33689" y="23351" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="33675, 23355, 13, 13">
+                    <node id="81" text="分时买卖点" x="34249" y="23748" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="34235, 23752, 13, 13">
                       <nodes>
-                        <node id="28" text="第三种买法" x="254777" y="180235" width="70" height="20" text_b="2, 2, 66, 16" />
-                        <node id="19" text="第二种买法" x="254777" y="180265" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="254848, 180269, 13, 13">
+                        <node id="28" text="第三种买法" x="255337" y="180632" width="70" height="20" text_b="2, 2, 66, 16" />
+                        <node id="19" text="第二种买法" x="255337" y="180662" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="255408, 180666, 13, 13">
                           <nodes>
-                            <node id="20" text="开盘后下跌，洗盘达到15分钟以上，上升过程中，一笔拉过前高（开盘价）" x="527437" y="350213" width="416" height="20" text_b="2, 2, 412, 16" />
+                            <node id="20" text="开盘后下跌，洗盘达到15分钟以上，上升过程中，一笔拉过前高（开盘价）" x="527997" y="350610" width="416" height="20" text_b="2, 2, 412, 16" />
                           </nodes>
                           <lines />
                         </node>
-                        <node id="21" text="第一种买法" x="254777" y="180295" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="254848, 180299, 13, 13">
+                        <node id="21" text="第一种买法" x="255337" y="180692" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="255408, 180696, 13, 13">
                           <nodes>
-                            <node id="22" text="开盘线上，跌破均线，一笔过前高，用于大盘环境较好的时候，低开不能太低" x="526425" y="349845" width="429" height="20" text_b="2, 2, 425, 16" />
-                          </nodes>
-                          <lines />
-                        </node>
-                      </nodes>
-                      <lines />
-                    </node>
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="123" text="补仓" x="278" y="343" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="264, 347, 13, 13">
-                  <nodes>
-                    <node id="125" text="补仓点" x="30502" y="21376" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="30488, 21380, 13, 13">
-                      <nodes>
-                        <node id="143" text="放量突破阻力，回踩不破或快速收回" x="30955" y="21774" width="206" height="20" text_b="2, 2, 202, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                    <node id="124" text="补仓仓位" x="30490" y="21406" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="30476, 21410, 13, 13">
-                      <nodes>
-                        <node id="148" text="海龟交易法" x="36203" y="25003" width="70" height="20" text_b="2, 2, 66, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                  </nodes>
-                  <lines />
-                </node>
-              </nodes>
-              <lines>
-                <line target="142" begin_side="Left" end_side="Right" begin_rect="378, 328, 76, 21" end_rect="278, 312, 33, 21" />
-                <line target="123" begin_side="Left" end_side="Right" begin_rect="378, 328, 76, 21" end_rect="278, 343, 33, 21" />
-              </lines>
-            </node>
-            <node id="101" text="仓位管控" x="396" y="448" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="382, 452, 13, 13">
-              <nodes>
-                <node id="151" text="大盘策略" x="258" y="432" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="244, 436, 13, 13">
-                  <nodes>
-                    <node id="37" text="大盘S点" x="16624" y="11974" width="52" height="20" folded="True" text_b="2, 2, 48, 16" fold_btn_b="16610, 11978, 13, 13">
-                      <nodes>
-                        <node id="38" text="流动资金绿" x="89137" y="60605" width="70" height="20" text_b="2, 2, 66, 16" fold_btn_b="89123, 60609, 13, 13">
-                          <nodes>
-                            <node id="39" text="捕捞死叉" x="88999" y="60590" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="88985, 60594, 13, 13">
-                              <nodes>
-                                <node id="40" text="0-1层，不做，会死？" x="88793" y="60590" width="126" height="20" text_b="2, 2, 122, 16" />
-                              </nodes>
-                              <lines>
-                                <line target="40" begin_side="Left" end_side="Right" begin_rect="88986, 60590, 71, 20" end_rect="88793, 60590, 126, 20" />
-                              </lines>
-                            </node>
-                            <node id="41" text="捕捞金叉" x="88999" y="60620" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="88985, 60624, 13, 13">
-                              <nodes>
-                                <node id="42" text="2层，快进快出，赚个菜钱" x="88768" y="60620" width="151" height="20" text_b="2, 2, 147, 16" />
-                              </nodes>
-                              <lines>
-                                <line target="42" begin_side="Left" end_side="Right" begin_rect="88986, 60620, 71, 20" end_rect="88768, 60620, 151, 20" />
-                              </lines>
-                            </node>
-                          </nodes>
-                          <lines>
-                            <line target="39" begin_side="Left" end_side="Right" begin_rect="89124, 60605, 83, 20" end_rect="88999, 60590, 58, 20" />
-                            <line target="41" begin_side="Left" end_side="Right" begin_rect="89124, 60605, 83, 20" end_rect="88999, 60620, 58, 20" />
-                          </lines>
-                        </node>
-                        <node id="43" text="流动资金红" x="89137" y="60665" width="70" height="20" text_b="2, 2, 66, 16" fold_btn_b="89123, 60669, 13, 13">
-                          <nodes>
-                            <node id="44" text="捕捞死叉" x="88999" y="60650" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="88985, 60654, 13, 13">
-                              <nodes>
-                                <node id="45" text="2层，冲高减，赚多少是多少" x="88756" y="60650" width="163" height="20" text_b="2, 2, 159, 16" />
-                              </nodes>
-                              <lines>
-                                <line target="45" begin_side="Left" end_side="Right" begin_rect="88986, 60650, 71, 20" end_rect="88756, 60650, 163, 20" />
-                              </lines>
-                            </node>
-                            <node id="46" text="捕捞金叉" x="88999" y="60680" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="88985, 60684, 13, 13">
-                              <nodes>
-                                <node id="47" text="3-5层，参与反弹，设好短线止盈" x="88731" y="60680" width="188" height="20" text_b="2, 2, 184, 16" />
-                              </nodes>
-                              <lines>
-                                <line target="47" begin_side="Left" end_side="Right" begin_rect="88986, 60680, 71, 20" end_rect="88731, 60680, 188, 20" />
-                              </lines>
-                            </node>
-                          </nodes>
-                          <lines>
-                            <line target="44" begin_side="Left" end_side="Right" begin_rect="89124, 60665, 83, 20" end_rect="88999, 60650, 58, 20" />
-                            <line target="46" begin_side="Left" end_side="Right" begin_rect="89124, 60665, 83, 20" end_rect="88999, 60680, 58, 20" />
-                          </lines>
-                        </node>
-                      </nodes>
-                      <lines />
-                    </node>
-                    <node id="48" text="大盘B点" x="16624" y="12004" width="52" height="20" folded="True" text_b="2, 2, 48, 16" fold_btn_b="16610, 12008, 13, 13">
-                      <nodes>
-                        <node id="49" text="流动资金绿" x="654459" y="431525" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="654445, 431529, 13, 13">
-                          <nodes>
-                            <node id="50" text="捕捞死叉" x="655086" y="431908" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="655072, 431912, 13, 13">
-                              <nodes>
-                                <node id="51" text="3层，只减不加" x="655767" y="432306" width="89" height="20" text_b="2, 2, 85, 16" />
-                              </nodes>
-                              <lines />
-                            </node>
-                            <node id="52" text="捕捞金叉" x="655086" y="431938" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="655072, 431942, 13, 13">
-                              <nodes>
-                                <node id="53" text="5层，反弹逢高减仓，逢低低吸" x="760099" y="509383" width="175" height="20" text_b="2, 2, 171, 16" />
-                              </nodes>
-                              <lines />
-                            </node>
-                          </nodes>
-                          <lines />
-                        </node>
-                        <node id="54" text="流动资金红" x="654459" y="431555" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="654445, 431559, 13, 13">
-                          <nodes>
-                            <node id="55" text="捕捞死叉" x="755977" y="506980" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="755963, 506984, 13, 13">
-                              <nodes>
-                                <node id="56" text="5层，高位减仓，等待低吸" x="759264" y="509015" width="151" height="20" text_b="2, 2, 147, 16" />
-                              </nodes>
-                              <lines />
-                            </node>
-                            <node id="57" text="捕捞金叉" x="755977" y="507010" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="755963, 507014, 13, 13">
-                              <nodes>
-                                <node id="58" text="7-10层，大胆买入，敢于持股" x="758393" y="508647" width="169" height="20" text_b="2, 2, 165, 16" />
-                              </nodes>
-                              <lines />
-                            </node>
+                            <node id="22" text="开盘线上，跌破均线，一笔过前高，用于大盘环境较好的时候，低开不能太低" x="526985" y="350242" width="429" height="20" text_b="2, 2, 425, 16" />
                           </nodes>
                           <lines />
                         </node>
@@ -275,193 +153,312 @@
                   </nodes>
                   <lines />
                 </node>
-                <node id="126" text="海龟交易法" x="246" y="463" width="70" height="21" folded="True" text_b="2, 2, 66, 17" fold_btn_b="232, 467, 13, 13">
+                <node id="123" text="补仓" x="838" y="740" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="824, 744, 13, 13">
                   <nodes>
-                    <node id="127" text="真实波幅" x="13102" y="9571" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="13088, 9575, 13, 13">
+                    <node id="125" text="补仓点" x="31062" y="21773" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="31048, 21777, 13, 13">
                       <nodes>
-                        <node id="128" text="MTR:MAX(MAX((HIGH-LOW),ABS(REF(CLOSE,1)-HIGH)),ABS(REF(CLOSE,1)-LOW));&#xD;&#xA;ATR:MA(MTR,N);" x="289839" y="207281" width="441" height="33" text_b="2, 2, 437, 29" />
+                        <node id="143" text="放量突破阻力，回踩不破或快速收回" x="31515" y="22171" width="206" height="20" text_b="2, 2, 202, 16" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="133" text="单位头寸" x="13102" y="9601" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="13088, 9605, 13, 13">
+                    <node id="124" text="补仓仓位" x="31050" y="21803" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="31036, 21807, 13, 13">
                       <nodes>
-                        <node id="134" text="INT[(总资金*1%)/(ATR*100)]" x="317292" y="219286" width="169" height="20" text_b="2, 2, 165, 16" />
+                        <node id="148" text="海龟交易法" x="36763" y="25400" width="70" height="20" text_b="2, 2, 66, 16" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="131" text="补仓价" x="13114" y="9631" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="13100, 9635, 13, 13">
-                      <nodes>
-                        <node id="132" text="每上涨0.5ATR的股价，加仓一次，仓位是单位头寸" x="318013" y="219654" width="280" height="20" text_b="2, 2, 276, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                    <node id="129" text="止损价" x="13114" y="9661" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="13100, 9665, 13, 13">
-                      <nodes>
-                        <node id="130" text="止损价 = 最近买点-2*ATR" x="318962" y="220022" width="151" height="20" text_b="2, 2, 147, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                  </nodes>
-                  <lines />
-                </node>
-              </nodes>
-              <lines>
-                <line target="151" begin_side="Left" end_side="Right" begin_rect="383, 448, 71, 21" end_rect="258, 432, 58, 21" />
-                <line target="126" begin_side="Left" end_side="Right" begin_rect="383, 448, 71, 21" end_rect="246, 463, 70, 21" />
-              </lines>
-            </node>
-            <node id="102" text="止盈止损" x="396" y="583" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="382, 587, 13, 13">
-              <nodes>
-                <node id="85" text="止损" x="283" y="568" width="33" height="21" text_b="2, 2, 29, 17" fold_btn_b="269, 572, 13, 13">
-                  <nodes>
-                    <node id="135" text="破辅助线" x="145" y="552" width="58" height="21" text_b="2, 2, 54, 17" />
-                    <node id="136" text="海龟止损" x="145" y="583" width="58" height="21" text_b="2, 2, 54, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="135" begin_side="Left" end_side="Right" begin_rect="270, 568, 46, 21" end_rect="145, 552, 58, 21" />
-                    <line target="136" begin_side="Left" end_side="Right" begin_rect="270, 568, 46, 21" end_rect="145, 583, 58, 21" />
-                  </lines>
-                </node>
-                <node id="86" text="止盈" x="283" y="614" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="269, 618, 13, 13">
-                  <nodes>
-                    <node id="138" text="捕捞季节死叉卖出" x="11873" y="8940" width="107" height="20" text_b="2, 2, 103, 16" />
-                    <node id="139" text="压力位减仓" x="11910" y="8970" width="70" height="20" text_b="2, 2, 66, 16" />
-                    <node id="87" text="高量柱逃顶" x="11910" y="9000" width="70" height="20" text_b="2, 2, 66, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-              </nodes>
-              <lines>
-                <line target="85" begin_side="Left" end_side="Right" begin_rect="383, 583, 71, 21" end_rect="283, 568, 33, 21" />
-                <line target="86" begin_side="Left" end_side="Right" begin_rect="383, 583, 71, 21" end_rect="283, 614, 33, 21" />
-              </lines>
-            </node>
-            <node id="84" text="做T方法" x="667" y="255" width="53" height="21" text_b="2, 2, 49, 17" fold_btn_b="721, 259, 13, 13">
-              <nodes>
-                <node id="144" text="买入" x="800" y="208" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="834, 212, 13, 13">
-                  <nodes>
-                    <node id="149" text="捕捞季节15分钟金叉买入" x="50185" y="33192" width="144" height="20" text_b="2, 2, 140, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="145" text="卖出" x="800" y="239" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="834, 243, 13, 13">
-                  <nodes>
-                    <node id="121" text="捕捞季节15分钟死叉卖出" x="53679" y="35595" width="144" height="20" text_b="2, 2, 140, 16" />
-                    <node id="146" text="如果大盘很好用30分钟捕捞季节确认" x="53679" y="35625" width="206" height="20" text_b="2, 2, 202, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="147" text="正反T" x="800" y="286" width="40" height="21" text_b="2, 2, 36, 17" fold_btn_b="841, 290, 13, 13">
-                  <nodes>
-                    <node id="152" text="先卖后买" x="920" y="270" width="58" height="21" text_b="2, 2, 54, 17" />
-                    <node id="153" text="先买后卖" x="920" y="301" width="58" height="21" text_b="2, 2, 54, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="152" begin_side="Right" end_side="Left" begin_rect="800, 286, 53, 21" end_rect="920, 270, 58, 21" />
-                    <line target="153" begin_side="Right" end_side="Left" begin_rect="800, 286, 53, 21" end_rect="920, 301, 58, 21" />
-                  </lines>
-                </node>
-              </nodes>
-              <lines>
-                <line target="144" begin_side="Right" end_side="Left" begin_rect="667, 255, 66, 21" end_rect="800, 208, 33, 21" />
-                <line target="145" begin_side="Right" end_side="Left" begin_rect="667, 255, 66, 21" end_rect="800, 239, 33, 21" />
-                <line target="147" begin_side="Right" end_side="Left" begin_rect="667, 255, 66, 21" end_rect="800, 286, 40, 21" />
-              </lines>
-            </node>
-            <node id="141" text="技术要点" x="667" y="390" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="726, 394, 13, 13">
-              <nodes>
-                <node id="31" text="支撑与压力技术" x="1925" y="1076" width="95" height="21" folded="True" text_b="2, 2, 91, 17" fold_btn_b="2021, 1080, 13, 13">
-                  <nodes>
-                    <node id="73" text="下跌途中放巨量的价柱实顶" x="217526" y="148004" width="157" height="20" text_b="2, 2, 153, 16" />
-                    <node id="74" text="多点精准线" x="217613" y="148034" width="70" height="20" text_b="2, 2, 66, 16" />
-                    <node id="72" text="黄金柱" x="217637" y="148064" width="46" height="20" text_b="2, 2, 42, 16" />
-                    <node id="66" text="跳空" x="217650" y="148094" width="33" height="20" text_b="2, 2, 29, 16" />
-                    <node id="67" text="峰谷" x="217650" y="148124" width="33" height="20" text_b="2, 2, 29, 16" />
-                    <node id="68" text="平台" x="217650" y="148154" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="217636, 148158, 13, 13">
-                      <nodes>
-                        <node id="69" text="平台顶" x="605828" y="398535" width="46" height="20" text_b="2, 2, 42, 16" />
-                        <node id="70" text="平台底" x="605828" y="398565" width="46" height="20" text_b="2, 2, 42, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                    <node id="59" text="筹码" x="217650" y="148184" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="217636, 148188, 13, 13">
-                      <nodes>
-                        <node id="60" text="筹码峰对应的价柱和量柱也是支撑" x="391024" y="262284" width="194" height="20" text_b="2, 2, 190, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                    <node id="34" text="上涨途中" x="217625" y="148214" width="58" height="20" text_b="2, 2, 54, 16" />
-                    <node id="35" text="下跌途中" x="217625" y="148244" width="58" height="20" text_b="2, 2, 54, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="24" text="分时与量能技术" x="1925" y="1107" width="95" height="21" folded="True" text_b="2, 2, 91, 17" fold_btn_b="2021, 1111, 13, 13">
-                  <nodes>
-                    <node id="32" text="双顶" x="212709" y="143119" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="212743, 143123, 13, 13">
-                      <nodes>
-                        <node id="33" text="形成的双顶要有量，股价后期带量一笔拉过前期双顶，会大涨" x="600846" y="394799" width="342" height="20" text_b="2, 2, 338, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                    <node id="26" text="分时高点" x="212709" y="143149" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="212768, 143153, 13, 13">
-                      <nodes>
-                        <node id="27" text="分时高点往往放量大，有大阳柱子，注意大阳柱子中夹杂的是否有大阴柱子，若有的话，往往这就是今天的最高点，要跑路" x="213043" y="143547" width="676" height="20" text_b="2, 2, 672, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="23" text="趋势线技术" x="1925" y="1138" width="70" height="21" folded="True" text_b="2, 2, 66, 17" fold_btn_b="1996, 1142, 13, 13">
-                  <nodes>
-                    <node id="76" text="人线" x="382584" y="255796" width="33" height="20" text_b="2, 2, 29, 16" />
-                    <node id="77" text="地线" x="382584" y="255826" width="33" height="20" text_b="2, 2, 29, 16" />
-                    <node id="78" text="天线" x="382584" y="255856" width="33" height="20" text_b="2, 2, 29, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="140" text="量价关系技术" x="1925" y="1169" width="83" height="21" text_b="2, 2, 79, 17" />
-              </nodes>
-              <lines />
-            </node>
-            <node id="93" text="盈利模式" x="667" y="479" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="726, 483, 13, 13">
-              <nodes>
-                <node id="137" text="倒拔垂杨柳" x="1365" y="814" width="70" height="21" text_b="2, 2, 66, 17" />
-                <node id="94" text="双龙战法" x="1365" y="845" width="58" height="21" text_b="2, 2, 54, 17" />
-                <node id="95" text="鱼头理论" x="1365" y="876" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="1424, 880, 13, 13">
-                  <nodes>
-                    <node id="154" text="前期有一定涨幅，然后回落，再一次起涨点" x="3641" y="2512" width="243" height="20" text_b="2, 2, 239, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="96" text="空中加油" x="1365" y="907" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="1424, 911, 13, 13">
-                  <nodes>
-                    <node id="97" text="横盘期间股价不跌破前期大阳线" x="56252" y="37983" width="181" height="20" text_b="2, 2, 177, 16" />
-                    <node id="98" text="流动资金不能三天翻绿" x="56252" y="38013" width="132" height="20" text_b="2, 2, 128, 16" />
-                    <node id="99" text="缩量" x="56252" y="38043" width="33" height="20" text_b="2, 2, 29, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="29" text="主力自救" x="1365" y="938" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="1424, 942, 13, 13">
-                  <nodes>
-                    <node id="30" text="新股次新，前期没有被炒作过的，找一字板下跌途中放量打开一字板的K线，后期突破底部平台和下跌趋势后，结合筹码如果底部有吸筹，目标价位是这根K线，这是主力在自救" x="208895" y="142233" width="960" height="20" text_b="2, 2, 956, 16" />
                   </nodes>
                   <lines />
                 </node>
               </nodes>
               <lines />
             </node>
-            <node id="150" text="指标策略" x="667" y="568" width="58" height="21" text_b="2, 2, 54, 17" />
+            <node id="101" text="仓位管控" x="396" y="432" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="382, 436, 13, 13">
+              <nodes>
+                <node id="151" text="大盘策略" x="258" y="416" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="244, 420, 13, 13">
+                  <nodes>
+                    <node id="37" text="大盘S点" x="17184" y="12371" width="52" height="20" folded="True" text_b="2, 2, 48, 16" fold_btn_b="17170, 12375, 13, 13">
+                      <nodes>
+                        <node id="38" text="流动资金绿" x="89697" y="61002" width="70" height="20" text_b="2, 2, 66, 16" fold_btn_b="89683, 61006, 13, 13">
+                          <nodes>
+                            <node id="39" text="捕捞死叉" x="89559" y="60987" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="89545, 60991, 13, 13">
+                              <nodes>
+                                <node id="40" text="0-1层，不做，会死？" x="89353" y="60987" width="126" height="20" text_b="2, 2, 122, 16" />
+                              </nodes>
+                              <lines>
+                                <line target="40" begin_side="Left" end_side="Right" begin_rect="89546, 60987, 71, 20" end_rect="89353, 60987, 126, 20" />
+                              </lines>
+                            </node>
+                            <node id="41" text="捕捞金叉" x="89559" y="61017" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="89545, 61021, 13, 13">
+                              <nodes>
+                                <node id="42" text="2层，快进快出，赚个菜钱" x="89328" y="61017" width="151" height="20" text_b="2, 2, 147, 16" />
+                              </nodes>
+                              <lines>
+                                <line target="42" begin_side="Left" end_side="Right" begin_rect="89546, 61017, 71, 20" end_rect="89328, 61017, 151, 20" />
+                              </lines>
+                            </node>
+                          </nodes>
+                          <lines>
+                            <line target="39" begin_side="Left" end_side="Right" begin_rect="89684, 61002, 83, 20" end_rect="89559, 60987, 58, 20" />
+                            <line target="41" begin_side="Left" end_side="Right" begin_rect="89684, 61002, 83, 20" end_rect="89559, 61017, 58, 20" />
+                          </lines>
+                        </node>
+                        <node id="43" text="流动资金红" x="89697" y="61062" width="70" height="20" text_b="2, 2, 66, 16" fold_btn_b="89683, 61066, 13, 13">
+                          <nodes>
+                            <node id="44" text="捕捞死叉" x="89559" y="61047" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="89545, 61051, 13, 13">
+                              <nodes>
+                                <node id="45" text="2层，冲高减，赚多少是多少" x="89316" y="61047" width="163" height="20" text_b="2, 2, 159, 16" />
+                              </nodes>
+                              <lines>
+                                <line target="45" begin_side="Left" end_side="Right" begin_rect="89546, 61047, 71, 20" end_rect="89316, 61047, 163, 20" />
+                              </lines>
+                            </node>
+                            <node id="46" text="捕捞金叉" x="89559" y="61077" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="89545, 61081, 13, 13">
+                              <nodes>
+                                <node id="47" text="3-5层，参与反弹，设好短线止盈" x="89291" y="61077" width="188" height="20" text_b="2, 2, 184, 16" />
+                              </nodes>
+                              <lines>
+                                <line target="47" begin_side="Left" end_side="Right" begin_rect="89546, 61077, 71, 20" end_rect="89291, 61077, 188, 20" />
+                              </lines>
+                            </node>
+                          </nodes>
+                          <lines>
+                            <line target="44" begin_side="Left" end_side="Right" begin_rect="89684, 61062, 83, 20" end_rect="89559, 61047, 58, 20" />
+                            <line target="46" begin_side="Left" end_side="Right" begin_rect="89684, 61062, 83, 20" end_rect="89559, 61077, 58, 20" />
+                          </lines>
+                        </node>
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="48" text="大盘B点" x="17184" y="12401" width="52" height="20" folded="True" text_b="2, 2, 48, 16" fold_btn_b="17170, 12405, 13, 13">
+                      <nodes>
+                        <node id="49" text="流动资金绿" x="655019" y="431922" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="655005, 431926, 13, 13">
+                          <nodes>
+                            <node id="50" text="捕捞死叉" x="655646" y="432305" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="655632, 432309, 13, 13">
+                              <nodes>
+                                <node id="51" text="3层，只减不加" x="656327" y="432703" width="89" height="20" text_b="2, 2, 85, 16" />
+                              </nodes>
+                              <lines />
+                            </node>
+                            <node id="52" text="捕捞金叉" x="655646" y="432335" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="655632, 432339, 13, 13">
+                              <nodes>
+                                <node id="53" text="5层，反弹逢高减仓，逢低低吸" x="760659" y="509780" width="175" height="20" text_b="2, 2, 171, 16" />
+                              </nodes>
+                              <lines />
+                            </node>
+                          </nodes>
+                          <lines />
+                        </node>
+                        <node id="54" text="流动资金红" x="655019" y="431952" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="655005, 431956, 13, 13">
+                          <nodes>
+                            <node id="55" text="捕捞死叉" x="756537" y="507377" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="756523, 507381, 13, 13">
+                              <nodes>
+                                <node id="56" text="5层，高位减仓，等待低吸" x="759824" y="509412" width="151" height="20" text_b="2, 2, 147, 16" />
+                              </nodes>
+                              <lines />
+                            </node>
+                            <node id="57" text="捕捞金叉" x="756537" y="507407" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="756523, 507411, 13, 13">
+                              <nodes>
+                                <node id="58" text="7-10层，大胆买入，敢于持股" x="758953" y="509044" width="169" height="20" text_b="2, 2, 165, 16" />
+                              </nodes>
+                              <lines />
+                            </node>
+                          </nodes>
+                          <lines />
+                        </node>
+                      </nodes>
+                      <lines />
+                    </node>
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="126" text="海龟交易法" x="246" y="447" width="70" height="21" folded="True" text_b="2, 2, 66, 17" fold_btn_b="232, 451, 13, 13">
+                  <nodes>
+                    <node id="127" text="真实波幅" x="13662" y="9968" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="13648, 9972, 13, 13">
+                      <nodes>
+                        <node id="128" text="MTR:MAX(MAX((HIGH-LOW),ABS(REF(CLOSE,1)-HIGH)),ABS(REF(CLOSE,1)-LOW));&#xD;&#xA;ATR:MA(MTR,N);" x="290399" y="207678" width="441" height="33" text_b="2, 2, 437, 29" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="133" text="单位头寸" x="13662" y="9998" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="13648, 10002, 13, 13">
+                      <nodes>
+                        <node id="134" text="INT[(总资金*1%)/(ATR*100)]" x="317852" y="219683" width="169" height="20" text_b="2, 2, 165, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="131" text="补仓价" x="13674" y="10028" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="13660, 10032, 13, 13">
+                      <nodes>
+                        <node id="132" text="每上涨0.5ATR的股价，加仓一次，仓位是单位头寸" x="318573" y="220051" width="280" height="20" text_b="2, 2, 276, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="129" text="止损价" x="13674" y="10058" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="13660, 10062, 13, 13">
+                      <nodes>
+                        <node id="130" text="止损价 = 最近买点-2*ATR" x="319522" y="220419" width="151" height="20" text_b="2, 2, 147, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                  </nodes>
+                  <lines />
+                </node>
+              </nodes>
+              <lines>
+                <line target="151" begin_side="Left" end_side="Right" begin_rect="383, 432, 71, 21" end_rect="258, 416, 58, 21" />
+                <line target="126" begin_side="Left" end_side="Right" begin_rect="383, 432, 71, 21" end_rect="246, 447, 70, 21" />
+              </lines>
+            </node>
+            <node id="102" text="止盈止损" x="396" y="567" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="382, 571, 13, 13">
+              <nodes>
+                <node id="85" text="止损" x="283" y="552" width="33" height="21" text_b="2, 2, 29, 17" fold_btn_b="269, 556, 13, 13">
+                  <nodes>
+                    <node id="135" text="破辅助线" x="145" y="536" width="58" height="21" text_b="2, 2, 54, 17" />
+                    <node id="136" text="海龟止损" x="145" y="567" width="58" height="21" text_b="2, 2, 54, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="135" begin_side="Left" end_side="Right" begin_rect="270, 552, 46, 21" end_rect="145, 536, 58, 21" />
+                    <line target="136" begin_side="Left" end_side="Right" begin_rect="270, 552, 46, 21" end_rect="145, 567, 58, 21" />
+                  </lines>
+                </node>
+                <node id="86" text="止盈" x="283" y="598" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="269, 602, 13, 13">
+                  <nodes>
+                    <node id="138" text="捕捞季节死叉卖出" x="12433" y="9337" width="107" height="20" text_b="2, 2, 103, 16" />
+                    <node id="139" text="压力位减仓" x="12470" y="9367" width="70" height="20" text_b="2, 2, 66, 16" />
+                    <node id="87" text="高量柱逃顶" x="12470" y="9397" width="70" height="20" text_b="2, 2, 66, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+              </nodes>
+              <lines>
+                <line target="85" begin_side="Left" end_side="Right" begin_rect="383, 567, 71, 21" end_rect="283, 552, 33, 21" />
+                <line target="86" begin_side="Left" end_side="Right" begin_rect="383, 567, 71, 21" end_rect="283, 598, 33, 21" />
+              </lines>
+            </node>
+            <node id="84" text="做T方法" x="667" y="254" width="53" height="21" text_b="2, 2, 49, 17" fold_btn_b="721, 258, 13, 13">
+              <nodes>
+                <node id="144" text="买入" x="800" y="207" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="834, 211, 13, 13">
+                  <nodes>
+                    <node id="149" text="捕捞季节15分钟金叉买入" x="50745" y="33589" width="144" height="20" text_b="2, 2, 140, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="145" text="卖出" x="800" y="238" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="834, 242, 13, 13">
+                  <nodes>
+                    <node id="121" text="捕捞季节15分钟死叉卖出" x="54239" y="35992" width="144" height="20" text_b="2, 2, 140, 16" />
+                    <node id="146" text="如果大盘很好用30分钟捕捞季节确认" x="54239" y="36022" width="206" height="20" text_b="2, 2, 202, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="147" text="正反T" x="800" y="285" width="40" height="21" text_b="2, 2, 36, 17" fold_btn_b="841, 289, 13, 13">
+                  <nodes>
+                    <node id="152" text="先卖后买" x="920" y="269" width="58" height="21" text_b="2, 2, 54, 17" />
+                    <node id="153" text="先买后卖" x="920" y="300" width="58" height="21" text_b="2, 2, 54, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="152" begin_side="Right" end_side="Left" begin_rect="800, 285, 53, 21" end_rect="920, 269, 58, 21" />
+                    <line target="153" begin_side="Right" end_side="Left" begin_rect="800, 285, 53, 21" end_rect="920, 300, 58, 21" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines>
+                <line target="144" begin_side="Right" end_side="Left" begin_rect="667, 254, 66, 21" end_rect="800, 207, 33, 21" />
+                <line target="145" begin_side="Right" end_side="Left" begin_rect="667, 254, 66, 21" end_rect="800, 238, 33, 21" />
+                <line target="147" begin_side="Right" end_side="Left" begin_rect="667, 254, 66, 21" end_rect="800, 285, 40, 21" />
+              </lines>
+            </node>
+            <node id="141" text="技术要点" x="667" y="389" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="726, 393, 13, 13">
+              <nodes>
+                <node id="31" text="支撑与压力技术" x="2485" y="1473" width="95" height="21" folded="True" text_b="2, 2, 91, 17" fold_btn_b="2581, 1477, 13, 13">
+                  <nodes>
+                    <node id="73" text="下跌途中放巨量的价柱实顶" x="218086" y="148401" width="157" height="20" text_b="2, 2, 153, 16" />
+                    <node id="74" text="多点精准线" x="218173" y="148431" width="70" height="20" text_b="2, 2, 66, 16" />
+                    <node id="72" text="黄金柱" x="218197" y="148461" width="46" height="20" text_b="2, 2, 42, 16" />
+                    <node id="66" text="跳空" x="218210" y="148491" width="33" height="20" text_b="2, 2, 29, 16" />
+                    <node id="67" text="峰谷" x="218210" y="148521" width="33" height="20" text_b="2, 2, 29, 16" />
+                    <node id="68" text="平台" x="218210" y="148551" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="218196, 148555, 13, 13">
+                      <nodes>
+                        <node id="69" text="平台顶" x="606388" y="398932" width="46" height="20" text_b="2, 2, 42, 16" />
+                        <node id="70" text="平台底" x="606388" y="398962" width="46" height="20" text_b="2, 2, 42, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="59" text="筹码" x="218210" y="148581" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="218196, 148585, 13, 13">
+                      <nodes>
+                        <node id="60" text="筹码峰对应的价柱和量柱也是支撑" x="391584" y="262681" width="194" height="20" text_b="2, 2, 190, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="34" text="上涨途中" x="218185" y="148611" width="58" height="20" text_b="2, 2, 54, 16" />
+                    <node id="35" text="下跌途中" x="218185" y="148641" width="58" height="20" text_b="2, 2, 54, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="24" text="分时与量能技术" x="2485" y="1504" width="95" height="21" folded="True" text_b="2, 2, 91, 17" fold_btn_b="2581, 1508, 13, 13">
+                  <nodes>
+                    <node id="32" text="双顶" x="213269" y="143516" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="213303, 143520, 13, 13">
+                      <nodes>
+                        <node id="33" text="形成的双顶要有量，股价后期带量一笔拉过前期双顶，会大涨" x="601406" y="395196" width="342" height="20" text_b="2, 2, 338, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="26" text="分时高点" x="213269" y="143546" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="213328, 143550, 13, 13">
+                      <nodes>
+                        <node id="27" text="分时高点往往放量大，有大阳柱子，注意大阳柱子中夹杂的是否有大阴柱子，若有的话，往往这就是今天的最高点，要跑路" x="213603" y="143944" width="676" height="20" text_b="2, 2, 672, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="23" text="趋势线技术" x="2485" y="1535" width="70" height="21" folded="True" text_b="2, 2, 66, 17" fold_btn_b="2556, 1539, 13, 13">
+                  <nodes>
+                    <node id="76" text="人线" x="383144" y="256193" width="33" height="20" text_b="2, 2, 29, 16" />
+                    <node id="77" text="地线" x="383144" y="256223" width="33" height="20" text_b="2, 2, 29, 16" />
+                    <node id="78" text="天线" x="383144" y="256253" width="33" height="20" text_b="2, 2, 29, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="140" text="量价关系技术" x="2485" y="1566" width="83" height="21" text_b="2, 2, 79, 17" />
+              </nodes>
+              <lines />
+            </node>
+            <node id="93" text="盈利模式" x="667" y="478" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="726, 482, 13, 13">
+              <nodes>
+                <node id="137" text="倒拔垂杨柳" x="1925" y="1211" width="70" height="21" text_b="2, 2, 66, 17" />
+                <node id="94" text="双龙战法" x="1925" y="1242" width="58" height="21" text_b="2, 2, 54, 17" />
+                <node id="95" text="鱼头理论" x="1925" y="1273" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="1984, 1277, 13, 13">
+                  <nodes>
+                    <node id="154" text="前期有一定涨幅，然后回落，再一次起涨点" x="4201" y="2909" width="243" height="20" text_b="2, 2, 239, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="96" text="空中加油" x="1925" y="1304" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="1984, 1308, 13, 13">
+                  <nodes>
+                    <node id="97" text="横盘期间股价不跌破前期大阳线" x="56812" y="38380" width="181" height="20" text_b="2, 2, 177, 16" />
+                    <node id="98" text="流动资金不能三天翻绿" x="56812" y="38410" width="132" height="20" text_b="2, 2, 128, 16" />
+                    <node id="99" text="缩量" x="56812" y="38440" width="33" height="20" text_b="2, 2, 29, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="29" text="主力自救" x="1925" y="1335" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="1984, 1339, 13, 13">
+                  <nodes>
+                    <node id="30" text="新股次新，前期没有被炒作过的，找一字板下跌途中放量打开一字板的K线，后期突破底部平台和下跌趋势后，结合筹码如果底部有吸筹，目标价位是这根K线，这是主力在自救" x="209455" y="142630" width="960" height="20" text_b="2, 2, 956, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+              </nodes>
+              <lines />
+            </node>
+            <node id="150" text="指标策略" x="667" y="567" width="58" height="21" text_b="2, 2, 54, 17" />
           </nodes>
           <lines>
-            <line target="2" begin_side="Left" end_side="Right" begin_rect="534, 378, 53, 41" end_rect="396, 192, 58, 21" />
-            <line target="100" begin_side="Left" end_side="Right" begin_rect="534, 378, 53, 41" end_rect="391, 328, 63, 21" />
-            <line target="101" begin_side="Left" end_side="Right" begin_rect="534, 378, 53, 41" end_rect="396, 448, 58, 21" />
-            <line target="102" begin_side="Left" end_side="Right" begin_rect="534, 378, 53, 41" end_rect="396, 583, 58, 21" />
-            <line target="84" begin_side="Right" end_side="Left" begin_rect="534, 378, 53, 41" end_rect="667, 255, 53, 21" />
-            <line target="141" begin_side="Right" end_side="Left" begin_rect="534, 378, 53, 41" end_rect="667, 390, 58, 21" />
-            <line target="93" begin_side="Right" end_side="Left" begin_rect="534, 378, 53, 41" end_rect="667, 479, 58, 21" />
-            <line target="150" begin_side="Right" end_side="Left" begin_rect="534, 378, 53, 41" end_rect="667, 568, 58, 21" />
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="534, 377, 53, 41" end_rect="396, 207, 58, 21" />
+            <line target="100" begin_side="Left" end_side="Right" begin_rect="534, 377, 53, 41" end_rect="391, 327, 63, 21" />
+            <line target="101" begin_side="Left" end_side="Right" begin_rect="534, 377, 53, 41" end_rect="396, 432, 58, 21" />
+            <line target="102" begin_side="Left" end_side="Right" begin_rect="534, 377, 53, 41" end_rect="396, 567, 58, 21" />
+            <line target="84" begin_side="Right" end_side="Left" begin_rect="534, 377, 53, 41" end_rect="667, 254, 53, 21" />
+            <line target="141" begin_side="Right" end_side="Left" begin_rect="534, 377, 53, 41" end_rect="667, 389, 58, 21" />
+            <line target="93" begin_side="Right" end_side="Left" begin_rect="534, 377, 53, 41" end_rect="667, 478, 58, 21" />
+            <line target="150" begin_side="Right" end_side="Left" begin_rect="534, 377, 53, 41" end_rect="667, 567, 58, 21" />
           </lines>
         </node>
       </nodes>
