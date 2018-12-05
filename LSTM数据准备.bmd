@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="3.1.6000.41874" document_version="3.0.0.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org-->
+  <information>
+    <author>Administrator</author>
+    <company>
+    </company>
+    <version>3.0</version>
+    <description>
+    </description>
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts active_chart="0">
+    <chart name="新页面 1" type="MindMap">
+      <remark>
+      </remark>
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+        <widget_margin>1</widget_margin>
+        <picture_thumb_size>100, 100</picture_thumb_size>
+      </style>
+      <nodes>
+        <node id="1" text="LSTM" x="311" y="379" width="53" height="38" text_b="12, 12, 29, 14">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node id="2" text="子主题 2" x="173" y="388" width="58" height="20" text_b="2, 2, 54, 16" />
+            <node id="3" text="数据准备" x="444" y="388" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="503, 392, 13, 13">
+              <nodes>
+                <node id="4" text="处理缺失的时间步长" x="582" y="298" width="120" height="20" text_b="2, 2, 116, 16" fold_btn_b="703, 302, 13, 13">
+                  <nodes>
+                    <node id="5" text="补全可以学习但有缺失的映射" x="782" y="268" width="169" height="20" text_b="2, 2, 165, 16" />
+                    <node id="6" text="删除无法学习的映射" x="782" y="298" width="120" height="20" text_b="2, 2, 116, 16" />
+                    <node id="7" text="通过位移变成函数映射" x="782" y="328" width="132" height="20" text_b="2, 2, 128, 16" />
+                  </nodes>
+                  <lines>
+                    <line target="5" begin_side="Right" end_side="Left" begin_rect="582, 298, 133, 20" end_rect="782, 268, 169, 20" />
+                    <line target="6" begin_side="Right" end_side="Left" begin_rect="582, 298, 133, 20" end_rect="782, 298, 120, 20" />
+                    <line target="7" begin_side="Right" end_side="Left" begin_rect="582, 298, 133, 20" end_rect="782, 328, 132, 20" />
+                  </lines>
+                </node>
+                <node id="8" text="消除趋势性和季节性" x="582" y="358" width="120" height="20" text_b="2, 2, 116, 16" fold_btn_b="703, 362, 13, 13">
+                  <nodes>
+                    <node id="9" text="差分法" x="782" y="358" width="46" height="20" text_b="2, 2, 42, 16" />
+                  </nodes>
+                  <lines>
+                    <line target="9" begin_side="Right" end_side="Left" begin_rect="582, 358, 133, 20" end_rect="782, 358, 46, 20" />
+                  </lines>
+                </node>
+                <node id="10" text="数据的规范化" x="582" y="403" width="83" height="20" text_b="2, 2, 79, 16" fold_btn_b="666, 407, 13, 13">
+                  <nodes>
+                    <node id="11" text="标准化" x="745" y="388" width="46" height="20" text_b="2, 2, 42, 16" />
+                    <node id="12" text="归一化" x="745" y="418" width="46" height="20" text_b="2, 2, 42, 16" />
+                  </nodes>
+                  <lines>
+                    <line target="11" begin_side="Right" end_side="Left" begin_rect="582, 403, 96, 20" end_rect="745, 388, 46, 20" />
+                    <line target="12" begin_side="Right" end_side="Left" begin_rect="582, 403, 96, 20" end_rect="745, 418, 46, 20" />
+                  </lines>
+                </node>
+                <node id="13" text="网络输入数据结构的构造" x="582" y="448" width="144" height="20" text_b="2, 2, 140, 16" />
+                <node id="14" text="热编码" x="582" y="493" width="46" height="20" text_b="2, 2, 42, 16" fold_btn_b="629, 497, 13, 13">
+                  <nodes>
+                    <node id="15" text="向量型热编码" x="708" y="478" width="83" height="20" text_b="2, 2, 79, 16" />
+                    <node id="16" text="整型热编码" x="708" y="508" width="70" height="20" text_b="2, 2, 66, 16" />
+                  </nodes>
+                  <lines>
+                    <line target="15" begin_side="Right" end_side="Left" begin_rect="582, 493, 59, 20" end_rect="708, 478, 83, 20" />
+                    <line target="16" begin_side="Right" end_side="Left" begin_rect="582, 493, 59, 20" end_rect="708, 508, 70, 20" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines>
+                <line target="4" begin_side="Right" end_side="Left" begin_rect="444, 388, 71, 20" end_rect="582, 298, 120, 20" />
+                <line target="8" begin_side="Right" end_side="Left" begin_rect="444, 388, 71, 20" end_rect="582, 358, 120, 20" />
+                <line target="10" begin_side="Right" end_side="Left" begin_rect="444, 388, 71, 20" end_rect="582, 403, 83, 20" />
+                <line target="13" begin_side="Right" end_side="Left" begin_rect="444, 388, 71, 20" end_rect="582, 448, 144, 20" />
+                <line target="14" begin_side="Right" end_side="Left" begin_rect="444, 388, 71, 20" end_rect="582, 493, 46, 20" />
+              </lines>
+            </node>
+          </nodes>
+          <lines>
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="311, 379, 53, 38" end_rect="173, 388, 58, 20" />
+            <line target="3" begin_side="Right" end_side="Left" begin_rect="311, 379, 53, 38" end_rect="444, 388, 58, 20" />
+          </lines>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>
