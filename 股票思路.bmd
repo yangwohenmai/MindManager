@@ -43,11 +43,11 @@
               <nodes>
                 <node id="16" text="消息" x="252" y="208" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="238, 212, 13, 13">
                   <nodes>
-                    <node id="41" text="重组" x="4106" y="3403" width="33" height="20" text_b="2, 2, 29, 16" />
-                    <node id="42" text="业绩提升" x="4081" y="3433" width="58" height="20" text_b="2, 2, 54, 16" />
-                    <node id="43" text="系统性利好利空" x="4044" y="3463" width="95" height="20" text_b="2, 2, 91, 16" />
-                    <node id="44" text="流言蜚语" x="4081" y="3493" width="58" height="20" text_b="2, 2, 54, 16" />
-                    <node id="45" text="可持续性利好利空" x="4032" y="3523" width="107" height="20" text_b="2, 2, 103, 16" />
+                    <node id="41" text="重组" x="4623" y="3801" width="33" height="20" text_b="2, 2, 29, 16" />
+                    <node id="42" text="业绩提升" x="4598" y="3831" width="58" height="20" text_b="2, 2, 54, 16" />
+                    <node id="43" text="系统性利好利空" x="4561" y="3861" width="95" height="20" text_b="2, 2, 91, 16" />
+                    <node id="44" text="流言蜚语" x="4598" y="3891" width="58" height="20" text_b="2, 2, 54, 16" />
+                    <node id="45" text="可持续性利好利空" x="4549" y="3921" width="107" height="20" text_b="2, 2, 103, 16" />
                   </nodes>
                   <lines />
                 </node>
@@ -64,31 +64,31 @@
             </node>
             <node id="20" text="操盘系统" x="353" y="388" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="339, 392, 13, 13">
               <nodes>
-                <node id="21" text="量" x="11175" y="11018" width="21" height="20" text_b="2, 2, 17, 16" />
-                <node id="22" text="价" x="11175" y="11048" width="21" height="20" text_b="2, 2, 17, 16" />
-                <node id="23" text="时" x="11175" y="11078" width="21" height="20" text_b="2, 2, 17, 16" />
-                <node id="24" text="空" x="11175" y="11108" width="21" height="20" text_b="2, 2, 17, 16" />
-                <node id="25" text="人" x="11175" y="11138" width="21" height="20" text_b="2, 2, 17, 16" />
-                <node id="26" text="画" x="11175" y="11168" width="21" height="20" text_b="2, 2, 17, 16" />
-                <node id="27" text="看" x="11175" y="11198" width="21" height="20" text_b="2, 2, 17, 16" />
-                <node id="28" text="选" x="11175" y="11228" width="21" height="20" text_b="2, 2, 17, 16" />
-                <node id="29" text="庄" x="11175" y="11258" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="21" text="量" x="11692" y="11416" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="22" text="价" x="11692" y="11446" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="23" text="时" x="11692" y="11476" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="24" text="空" x="11692" y="11506" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="25" text="人" x="11692" y="11536" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="26" text="画" x="11692" y="11566" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="27" text="看" x="11692" y="11596" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="28" text="选" x="11692" y="11626" width="21" height="20" text_b="2, 2, 17, 16" />
+                <node id="29" text="庄" x="11692" y="11656" width="21" height="20" text_b="2, 2, 17, 16" />
               </nodes>
               <lines />
             </node>
             <node id="30" text="底线" x="378" y="478" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="364, 482, 13, 13">
               <nodes>
-                <node id="31" text="做T" x="10722" y="10729" width="27" height="20" text_b="2, 2, 23, 16" />
-                <node id="32" text="止盈" x="10716" y="10759" width="33" height="20" text_b="2, 2, 29, 16" />
-                <node id="33" text="止损" x="10716" y="10789" width="33" height="20" text_b="2, 2, 29, 16" />
+                <node id="31" text="做T" x="11239" y="11127" width="27" height="20" text_b="2, 2, 23, 16" />
+                <node id="32" text="止盈" x="11233" y="11157" width="33" height="20" text_b="2, 2, 29, 16" />
+                <node id="33" text="止损" x="11233" y="11187" width="33" height="20" text_b="2, 2, 29, 16" />
               </nodes>
               <lines />
             </node>
             <node id="2" text="成交量" x="365" y="568" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="351, 572, 13, 13">
               <nodes>
-                <node id="3" text="子主题 3" x="3021" y="2997" width="58" height="20" text_b="2, 2, 54, 16" />
-                <node id="4" text="子主题 2" x="3021" y="3027" width="58" height="20" text_b="2, 2, 54, 16" />
-                <node id="5" text="子主题 1" x="3021" y="3057" width="58" height="20" text_b="2, 2, 54, 16" />
+                <node id="3" text="子主题 3" x="3538" y="3395" width="58" height="20" text_b="2, 2, 54, 16" />
+                <node id="4" text="子主题 2" x="3538" y="3425" width="58" height="20" text_b="2, 2, 54, 16" />
+                <node id="5" text="子主题 1" x="3538" y="3455" width="58" height="20" text_b="2, 2, 54, 16" />
               </nodes>
               <lines />
             </node>
@@ -100,48 +100,48 @@
                   <nodes>
                     <node id="46" text="缺口" x="863" y="204" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="897, 208, 13, 13">
                       <nodes>
-                        <node id="47" text="意义" x="2678" y="1717" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2712, 1721, 13, 13">
+                        <node id="47" text="意义" x="3195" y="2115" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="3229, 2119, 13, 13">
                           <nodes>
-                            <node id="48" text="人气" x="2791" y="1672" width="33" height="20" text_b="2, 2, 29, 16" />
-                            <node id="49" text="主力成本" x="2791" y="1702" width="58" height="20" text_b="2, 2, 54, 16" />
-                            <node id="50" text="力度" x="2791" y="1732" width="33" height="20" text_b="2, 2, 29, 16" />
-                            <node id="51" text="压力支撑" x="2791" y="1762" width="58" height="20" text_b="2, 2, 54, 16" />
+                            <node id="48" text="人气" x="3308" y="2070" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="49" text="主力成本" x="3308" y="2100" width="58" height="20" text_b="2, 2, 54, 16" />
+                            <node id="50" text="力度" x="3308" y="2130" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="51" text="压力支撑" x="3308" y="2160" width="58" height="20" text_b="2, 2, 54, 16" />
                           </nodes>
                           <lines>
-                            <line target="48" begin_side="Right" end_side="Left" begin_rect="2678, 1717, 46, 20" end_rect="2791, 1672, 33, 20" />
-                            <line target="49" begin_side="Right" end_side="Left" begin_rect="2678, 1717, 46, 20" end_rect="2791, 1702, 58, 20" />
-                            <line target="50" begin_side="Right" end_side="Left" begin_rect="2678, 1717, 46, 20" end_rect="2791, 1732, 33, 20" />
-                            <line target="51" begin_side="Right" end_side="Left" begin_rect="2678, 1717, 46, 20" end_rect="2791, 1762, 58, 20" />
+                            <line target="48" begin_side="Right" end_side="Left" begin_rect="3195, 2115, 46, 20" end_rect="3308, 2070, 33, 20" />
+                            <line target="49" begin_side="Right" end_side="Left" begin_rect="3195, 2115, 46, 20" end_rect="3308, 2100, 58, 20" />
+                            <line target="50" begin_side="Right" end_side="Left" begin_rect="3195, 2115, 46, 20" end_rect="3308, 2130, 33, 20" />
+                            <line target="51" begin_side="Right" end_side="Left" begin_rect="3195, 2115, 46, 20" end_rect="3308, 2160, 58, 20" />
                           </lines>
                         </node>
-                        <node id="52" text="分类" x="2678" y="1852" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2712, 1856, 13, 13">
+                        <node id="52" text="分类" x="3195" y="2250" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="3229, 2254, 13, 13">
                           <nodes>
-                            <node id="53" text="突破" x="2791" y="1822" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2825, 1826, 13, 13">
+                            <node id="53" text="突破" x="3308" y="2220" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="3342, 2224, 13, 13">
                               <nodes>
-                                <node id="54" text="向上" x="2904" y="1792" width="33" height="20" text_b="2, 2, 29, 16" />
-                                <node id="55" text="向下" x="2904" y="1822" width="33" height="20" text_b="2, 2, 29, 16" />
-                                <node id="56" text="平台" x="2904" y="1852" width="33" height="20" text_b="2, 2, 29, 16" />
+                                <node id="54" text="向上" x="3421" y="2190" width="33" height="20" text_b="2, 2, 29, 16" />
+                                <node id="55" text="向下" x="3421" y="2220" width="33" height="20" text_b="2, 2, 29, 16" />
+                                <node id="56" text="平台" x="3421" y="2250" width="33" height="20" text_b="2, 2, 29, 16" />
                               </nodes>
                               <lines>
-                                <line target="54" begin_side="Right" end_side="Left" begin_rect="2791, 1822, 46, 20" end_rect="2904, 1792, 33, 20" />
-                                <line target="55" begin_side="Right" end_side="Left" begin_rect="2791, 1822, 46, 20" end_rect="2904, 1822, 33, 20" />
-                                <line target="56" begin_side="Right" end_side="Left" begin_rect="2791, 1822, 46, 20" end_rect="2904, 1852, 33, 20" />
+                                <line target="54" begin_side="Right" end_side="Left" begin_rect="3308, 2220, 46, 20" end_rect="3421, 2190, 33, 20" />
+                                <line target="55" begin_side="Right" end_side="Left" begin_rect="3308, 2220, 46, 20" end_rect="3421, 2220, 33, 20" />
+                                <line target="56" begin_side="Right" end_side="Left" begin_rect="3308, 2220, 46, 20" end_rect="3421, 2250, 33, 20" />
                               </lines>
                             </node>
-                            <node id="57" text="中继" x="2791" y="1882" width="33" height="20" text_b="2, 2, 29, 16" />
-                            <node id="58" text="衰竭" x="2791" y="1912" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2825, 1916, 13, 13">
+                            <node id="57" text="中继" x="3308" y="2280" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="58" text="衰竭" x="3308" y="2310" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="3342, 2314, 13, 13">
                               <nodes>
-                                <node id="59" text="缺口短期回补" x="2904" y="1912" width="83" height="20" text_b="2, 2, 79, 16" />
+                                <node id="59" text="缺口短期回补" x="3421" y="2310" width="83" height="20" text_b="2, 2, 79, 16" />
                               </nodes>
                               <lines>
-                                <line target="59" begin_side="Right" end_side="Left" begin_rect="2791, 1912, 46, 20" end_rect="2904, 1912, 83, 20" />
+                                <line target="59" begin_side="Right" end_side="Left" begin_rect="3308, 2310, 46, 20" end_rect="3421, 2310, 83, 20" />
                               </lines>
                             </node>
                           </nodes>
                           <lines>
-                            <line target="53" begin_side="Right" end_side="Left" begin_rect="2678, 1852, 46, 20" end_rect="2791, 1822, 33, 20" />
-                            <line target="57" begin_side="Right" end_side="Left" begin_rect="2678, 1852, 46, 20" end_rect="2791, 1882, 33, 20" />
-                            <line target="58" begin_side="Right" end_side="Left" begin_rect="2678, 1852, 46, 20" end_rect="2791, 1912, 33, 20" />
+                            <line target="53" begin_side="Right" end_side="Left" begin_rect="3195, 2250, 46, 20" end_rect="3308, 2220, 33, 20" />
+                            <line target="57" begin_side="Right" end_side="Left" begin_rect="3195, 2250, 46, 20" end_rect="3308, 2280, 33, 20" />
+                            <line target="58" begin_side="Right" end_side="Left" begin_rect="3195, 2250, 46, 20" end_rect="3308, 2310, 33, 20" />
                           </lines>
                         </node>
                       </nodes>
@@ -149,28 +149,28 @@
                     </node>
                     <node id="60" text="数量" x="863" y="234" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="897, 238, 13, 13">
                       <nodes>
-                        <node id="61" text="单根" x="2355" y="1383" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2389, 1387, 13, 13">
+                        <node id="61" text="单根" x="2872" y="1781" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2906, 1785, 13, 13">
                           <nodes>
-                            <node id="62" text="见顶" x="2468" y="1353" width="33" height="20" text_b="2, 2, 29, 16" />
-                            <node id="63" text="见底" x="2468" y="1383" width="33" height="20" text_b="2, 2, 29, 16" />
-                            <node id="64" text="进攻" x="2468" y="1413" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="62" text="见顶" x="2985" y="1751" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="63" text="见底" x="2985" y="1781" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="64" text="进攻" x="2985" y="1811" width="33" height="20" text_b="2, 2, 29, 16" />
                           </nodes>
                           <lines>
-                            <line target="62" begin_side="Right" end_side="Left" begin_rect="2355, 1383, 46, 20" end_rect="2468, 1353, 33, 20" />
-                            <line target="63" begin_side="Right" end_side="Left" begin_rect="2355, 1383, 46, 20" end_rect="2468, 1383, 33, 20" />
-                            <line target="64" begin_side="Right" end_side="Left" begin_rect="2355, 1383, 46, 20" end_rect="2468, 1413, 33, 20" />
+                            <line target="62" begin_side="Right" end_side="Left" begin_rect="2872, 1781, 46, 20" end_rect="2985, 1751, 33, 20" />
+                            <line target="63" begin_side="Right" end_side="Left" begin_rect="2872, 1781, 46, 20" end_rect="2985, 1781, 33, 20" />
+                            <line target="64" begin_side="Right" end_side="Left" begin_rect="2872, 1781, 46, 20" end_rect="2985, 1811, 33, 20" />
                           </lines>
                         </node>
-                        <node id="65" text="组合" x="2355" y="1473" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2389, 1477, 13, 13">
+                        <node id="65" text="组合" x="2872" y="1871" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2906, 1875, 13, 13">
                           <nodes>
-                            <node id="66" text="见顶" x="2468" y="1443" width="33" height="20" text_b="2, 2, 29, 16" />
-                            <node id="67" text="见底" x="2468" y="1473" width="33" height="20" text_b="2, 2, 29, 16" />
-                            <node id="68" text="中继" x="2468" y="1503" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="66" text="见顶" x="2985" y="1841" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="67" text="见底" x="2985" y="1871" width="33" height="20" text_b="2, 2, 29, 16" />
+                            <node id="68" text="中继" x="2985" y="1901" width="33" height="20" text_b="2, 2, 29, 16" />
                           </nodes>
                           <lines>
-                            <line target="66" begin_side="Right" end_side="Left" begin_rect="2355, 1473, 46, 20" end_rect="2468, 1443, 33, 20" />
-                            <line target="67" begin_side="Right" end_side="Left" begin_rect="2355, 1473, 46, 20" end_rect="2468, 1473, 33, 20" />
-                            <line target="68" begin_side="Right" end_side="Left" begin_rect="2355, 1473, 46, 20" end_rect="2468, 1503, 33, 20" />
+                            <line target="66" begin_side="Right" end_side="Left" begin_rect="2872, 1871, 46, 20" end_rect="2985, 1841, 33, 20" />
+                            <line target="67" begin_side="Right" end_side="Left" begin_rect="2872, 1871, 46, 20" end_rect="2985, 1871, 33, 20" />
+                            <line target="68" begin_side="Right" end_side="Left" begin_rect="2872, 1871, 46, 20" end_rect="2985, 1901, 33, 20" />
                           </lines>
                         </node>
                       </nodes>
@@ -178,12 +178,12 @@
                     </node>
                     <node id="69" text="时间" x="863" y="264" width="33" height="20" folded="True" text_b="2, 2, 29, 16" fold_btn_b="897, 268, 13, 13">
                       <nodes>
-                        <node id="70" text="15min" x="1434" y="593" width="39" height="18" text_b="2, 2, 35, 14" />
-                        <node id="71" text="30min" x="1434" y="621" width="39" height="18" text_b="2, 2, 35, 14" />
-                        <node id="72" text="60min" x="1434" y="649" width="39" height="18" text_b="2, 2, 35, 14" />
-                        <node id="73" text="1D" x="1434" y="677" width="21" height="18" text_b="2, 2, 17, 14" />
-                        <node id="74" text="1W" x="1434" y="705" width="21" height="18" text_b="2, 2, 17, 14" />
-                        <node id="75" text="1Mon" x="1434" y="733" width="33" height="18" text_b="2, 2, 29, 14" />
+                        <node id="70" text="15min" x="1951" y="991" width="39" height="18" text_b="2, 2, 35, 14" />
+                        <node id="71" text="30min" x="1951" y="1019" width="39" height="18" text_b="2, 2, 35, 14" />
+                        <node id="72" text="60min" x="1951" y="1047" width="39" height="18" text_b="2, 2, 35, 14" />
+                        <node id="73" text="1D" x="1951" y="1075" width="21" height="18" text_b="2, 2, 17, 14" />
+                        <node id="74" text="1W" x="1951" y="1103" width="21" height="18" text_b="2, 2, 17, 14" />
+                        <node id="75" text="1Mon" x="1951" y="1131" width="33" height="18" text_b="2, 2, 29, 14" />
                       </nodes>
                       <lines />
                     </node>
@@ -214,7 +214,7 @@
                 <node id="8" text="筹码分布" x="737" y="478" width="58" height="20" text_b="2, 2, 54, 16" />
                 <node id="9" text="筹码穿透率" x="737" y="508" width="70" height="20" folded="True" text_b="2, 2, 66, 16" fold_btn_b="808, 512, 13, 13">
                   <nodes>
-                    <node id="77" text="子主题 1" x="6510" y="5396" width="58" height="20" text_b="2, 2, 54, 16" />
+                    <node id="77" text="子主题 1" x="7027" y="5794" width="58" height="20" text_b="2, 2, 54, 16" />
                   </nodes>
                   <lines />
                 </node>
@@ -228,14 +228,14 @@
             </node>
             <node id="11" text="指标组合" x="624" y="632" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="683, 636, 13, 13">
               <nodes>
-                <node id="12" text="抄底" x="9797" y="9551" width="33" height="20" text_b="2, 2, 29, 16" />
-                <node id="13" text="追涨" x="9797" y="9581" width="33" height="20" text_b="2, 2, 29, 16" />
-                <node id="14" text="波段" x="9797" y="9611" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="9831, 9615, 13, 13">
+                <node id="12" text="抄底" x="10314" y="9949" width="33" height="20" text_b="2, 2, 29, 16" />
+                <node id="13" text="追涨" x="10314" y="9979" width="33" height="20" text_b="2, 2, 29, 16" />
+                <node id="14" text="波段" x="10314" y="10009" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="10348, 10013, 13, 13">
                   <nodes>
-                    <node id="76" text="三板斧" x="9910" y="9611" width="46" height="20" text_b="2, 2, 42, 16" />
+                    <node id="76" text="三板斧" x="10427" y="10009" width="46" height="20" text_b="2, 2, 42, 16" />
                   </nodes>
                   <lines>
-                    <line target="76" begin_side="Right" end_side="Left" begin_rect="9797, 9611, 46, 20" end_rect="9910, 9611, 46, 20" />
+                    <line target="76" begin_side="Right" end_side="Left" begin_rect="10314, 10009, 46, 20" end_rect="10427, 10009, 46, 20" />
                   </lines>
                 </node>
               </nodes>
