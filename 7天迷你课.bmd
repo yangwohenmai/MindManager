@@ -31,13 +31,76 @@
         <picture_thumb_size>100, 100</picture_thumb_size>
       </style>
       <nodes>
-        <node id="1" text="中心主题" x="523" y="377" width="78" height="41" text_b="12, 12, 54, 17">
+        <node id="1" text="7天迷你课" x="933" y="378" width="85" height="41" text_b="12, 12, 61, 17">
           <style>
             <back_color>Silver</back_color>
             <fore_color>Black</fore_color>
             <border_color>Black</border_color>
             <padding>12</padding>
           </style>
+          <nodes>
+            <node id="2" text="持久性算法，一致化映射法则" x="684" y="388" width="169" height="21" text_b="2, 2, 165, 17" fold_btn_b="670, 392, 13, 13">
+              <nodes>
+                <node id="3" text="设置评估参数" x="521" y="257" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="507, 261, 13, 13">
+                  <nodes>
+                    <node id="4" text="# 配置模型评估参数&#xD;&#xA;predictions = list()&#xD;&#xA;for x in test_X:&#xD;&#xA;	    yhat = model_persistence(x)&#xD;&#xA;	    predictions.append(yhat)&#xD;&#xA;test_score = mean_squared_error(test_y, predictions)&#xD;&#xA;print('Test MSE: %.3f' % test_score)" x="121" y="211" width="320" height="113" text_b="2, 2, 316, 109">
+                      <style>
+                        <text_align>Left</text_align>
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="4" begin_side="Left" end_side="Right" begin_rect="508, 257, 96, 21" end_rect="121, 211, 320, 113" />
+                  </lines>
+                </node>
+                <node id="5" text="建立一种映射关系" x="497" y="350" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="483, 354, 13, 13">
+                  <nodes>
+                    <node id="6" text="# 建立映射模型&#xD;&#xA;def model_persistence(x):&#xD;&#xA;	    return x" x="258" y="334" width="159" height="52" text_b="2, 2, 155, 48">
+                      <style>
+                        <text_align>Left</text_align>
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="6" begin_side="Left" end_side="Right" begin_rect="484, 350, 120, 21" end_rect="258, 334, 159, 52" />
+                  </lines>
+                </node>
+                <node id="7" text="分割训练集和测试集" x="484" y="434" width="120" height="21" text_b="2, 2, 116, 17" fold_btn_b="470, 438, 13, 13">
+                  <nodes>
+                    <node id="8" text="# 分割训练集和测试集&#xD;&#xA;X = dataframe.values&#xD;&#xA;train_size = int(len(X) * 0.66)&#xD;&#xA;train, test = X[1:train_size], X[train_size:]&#xD;&#xA;train_X, train_y = train[:,0], train[:,1]&#xD;&#xA;test_X, test_y = test[:,0], test[:,1]" x="162" y="396" width="242" height="97" text_b="2, 2, 238, 93">
+                      <style>
+                        <text_align>Left</text_align>
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="8" begin_side="Left" end_side="Right" begin_rect="471, 434, 133, 21" end_rect="162, 396, 242, 97" />
+                  </lines>
+                </node>
+                <node id="9" text="定义监督学习结构" x="497" y="534" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="483, 538, 13, 13">
+                  <nodes>
+                    <node id="10" text="# 创建格式化数据&#xD;&#xA;values = DataFrame(series.values)&#xD;&#xA;dataframe = concat([values.shift(1), values], axis=1)&#xD;&#xA;dataframe.columns = ['t-1', 't+1']&#xD;&#xA;print(dataframe.head(5))" x="106" y="503" width="311" height="82" text_b="2, 2, 307, 78">
+                      <style>
+                        <text_align>Left</text_align>
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="10" begin_side="Left" end_side="Right" begin_rect="484, 534, 120, 21" end_rect="106, 503, 311, 82" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines>
+                <line target="3" begin_side="Left" end_side="Right" begin_rect="671, 388, 182, 21" end_rect="521, 257, 83, 21" />
+                <line target="5" begin_side="Left" end_side="Right" begin_rect="671, 388, 182, 21" end_rect="497, 350, 107, 21" />
+                <line target="7" begin_side="Left" end_side="Right" begin_rect="671, 388, 182, 21" end_rect="484, 434, 120, 21" />
+                <line target="9" begin_side="Left" end_side="Right" begin_rect="671, 388, 182, 21" end_rect="497, 534, 107, 21" />
+              </lines>
+            </node>
+          </nodes>
+          <lines>
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="933, 378, 85, 41" end_rect="684, 388, 169, 21" />
+          </lines>
         </node>
       </nodes>
     </chart>
