@@ -31,7 +31,7 @@
         <picture_thumb_size>100, 100</picture_thumb_size>
       </style>
       <nodes>
-        <node id="1" text="7天迷你课" x="985" y="377" width="85" height="41" text_b="12, 12, 61, 17">
+        <node id="1" text="7天迷你课" x="286" y="377" width="85" height="41" text_b="12, 12, 61, 17">
           <style>
             <back_color>Silver</back_color>
             <fore_color>Black</fore_color>
@@ -39,218 +39,329 @@
             <padding>12</padding>
           </style>
           <nodes>
-            <node id="1" text="ARIMA整合移动平均自回归模型" x="719" y="262" width="186" height="21" text_b="2, 2, 182, 17" fold_btn_b="705, 266, 13, 13">
+            <node id="1" text="ARIMA整合移动平均自回归模型" x="20" y="293" width="186" height="21" folded="True" text_b="2, 2, 182, 17" fold_btn_b="6, 297, 13, 13">
               <nodes>
-                <node id="2" text="操作步骤" x="581" y="216" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="567, 220, 13, 13">
+                <node id="2" text="操作步骤" x="44518" y="47125" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="44504, 47129, 13, 13">
                   <nodes>
-                    <node id="3" text="3.根据图形确定参数p，q，见笔记" x="306" y="169" width="195" height="21" text_b="2, 2, 191, 17" />
-                    <node id="4" text="2.根据自相关图，片相关图确定模型类型，AR/MA/ARIMA" x="171" y="200" width="330" height="21" text_b="2, 2, 326, 17" />
-                    <node id="5" text="0.观察数据是否有季节性或趋势性" x="309" y="231" width="192" height="21" text_b="2, 2, 188, 17" />
-                    <node id="6" text="1.首先对数据做查分，通过几次查分使数据平稳，就是几阶差分，值为d" x="104" y="262" width="397" height="21" text_b="2, 2, 393, 17" />
+                    <node id="3" text="3.根据图形确定参数p，q，见笔记" x="44243" y="47078" width="195" height="21" text_b="2, 2, 191, 17" />
+                    <node id="4" text="2.根据自相关图，片相关图确定模型类型，AR/MA/ARIMA" x="44108" y="47109" width="330" height="21" text_b="2, 2, 326, 17" />
+                    <node id="5" text="0.观察数据是否有季节性或趋势性" x="44246" y="47140" width="192" height="21" text_b="2, 2, 188, 17" />
+                    <node id="6" text="1.首先对数据做查分，通过几次查分使数据平稳，就是几阶差分，值为d" x="44041" y="47171" width="397" height="21" text_b="2, 2, 393, 17" />
                   </nodes>
                   <lines>
-                    <line target="3" begin_side="Left" end_side="Right" begin_rect="568, 216, 71, 21" end_rect="306, 169, 195, 21" />
-                    <line target="4" begin_side="Left" end_side="Right" begin_rect="568, 216, 71, 21" end_rect="171, 200, 330, 21" />
-                    <line target="5" begin_side="Left" end_side="Right" begin_rect="568, 216, 71, 21" end_rect="309, 231, 192, 21" />
-                    <line target="6" begin_side="Left" end_side="Right" begin_rect="568, 216, 71, 21" end_rect="104, 262, 397, 21" />
+                    <line target="3" begin_side="Left" end_side="Right" begin_rect="44505, 47125, 71, 21" end_rect="44243, 47078, 195, 21" />
+                    <line target="4" begin_side="Left" end_side="Right" begin_rect="44505, 47125, 71, 21" end_rect="44108, 47109, 330, 21" />
+                    <line target="5" begin_side="Left" end_side="Right" begin_rect="44505, 47125, 71, 21" end_rect="44246, 47140, 192, 21" />
+                    <line target="6" begin_side="Left" end_side="Right" begin_rect="44505, 47125, 71, 21" end_rect="44041, 47171, 397, 21" />
                   </lines>
                 </node>
-                <node id="7" text="模型参数意义" x="556" y="324" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="542, 328, 13, 13">
+                <node id="7" text="模型参数意义" x="44493" y="47233" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="44479, 47237, 13, 13">
                   <nodes>
-                    <node id="8" text="q:移动平均窗口的大小，也称为移动平均值的顺序,q是偏自相关的截尾数" x="75" y="293" width="401" height="21" text_b="2, 2, 397, 17" />
-                    <node id="9" text="d:原始观测值的差异次数，也称为差分程度,d是差分,，比如你是一阶差分，d就是1" x="20" y="324" width="456" height="21" text_b="2, 2, 452, 17" />
-                    <node id="10" text="p:模型中包含的滞后观察数，也称为滞后顺序,p是自相关截尾数" x="124" y="355" width="352" height="21" text_b="2, 2, 348, 17" />
+                    <node id="8" text="q:移动平均窗口的大小，也称为移动平均值的顺序,q是偏自相关的截尾数" x="44012" y="47202" width="401" height="21" text_b="2, 2, 397, 17" />
+                    <node id="9" text="d:原始观测值的差异次数，也称为差分程度,d是差分,，比如你是一阶差分，d就是1" x="43957" y="47233" width="456" height="21" text_b="2, 2, 452, 17" />
+                    <node id="10" text="p:模型中包含的滞后观察数，也称为滞后顺序,p是自相关截尾数" x="44061" y="47264" width="352" height="21" text_b="2, 2, 348, 17" />
                   </nodes>
                   <lines>
-                    <line target="8" begin_side="Left" end_side="Right" begin_rect="543, 324, 96, 21" end_rect="75, 293, 401, 21" />
-                    <line target="9" begin_side="Left" end_side="Right" begin_rect="543, 324, 96, 21" end_rect="20, 324, 456, 21" />
-                    <line target="10" begin_side="Left" end_side="Right" begin_rect="543, 324, 96, 21" end_rect="124, 355, 352, 21" />
+                    <line target="8" begin_side="Left" end_side="Right" begin_rect="44480, 47233, 96, 21" end_rect="44012, 47202, 401, 21" />
+                    <line target="9" begin_side="Left" end_side="Right" begin_rect="44480, 47233, 96, 21" end_rect="43957, 47233, 456, 21" />
+                    <line target="10" begin_side="Left" end_side="Right" begin_rect="44480, 47233, 96, 21" end_rect="44061, 47264, 352, 21" />
                   </lines>
                 </node>
               </nodes>
-              <lines>
-                <line target="2" begin_side="Left" end_side="Right" begin_rect="706, 262, 199, 21" end_rect="581, 216, 58, 21" />
-                <line target="7" begin_side="Left" end_side="Right" begin_rect="706, 262, 199, 21" end_rect="556, 324, 83, 21" />
-              </lines>
+              <lines />
             </node>
-            <node id="34" text="自回归AR模型" x="818" y="480" width="87" height="21" text_b="2, 2, 83, 17" fold_btn_b="804, 484, 13, 13">
+            <node id="34" text="自回归AR模型" x="119" y="387" width="87" height="21" folded="True" text_b="2, 2, 83, 17" fold_btn_b="105, 391, 13, 13">
               <nodes>
-                <node id="35" text="自回归模型" x="668" y="449" width="70" height="21" text_b="2, 2, 66, 17" />
-                <node id="36" text="自相关性检查" x="655" y="496" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="641, 500, 13, 13">
+                <node id="35" text="自回归模型" x="43578" y="46868" width="70" height="21" text_b="2, 2, 66, 17" />
+                <node id="36" text="自相关性检查" x="43565" y="46915" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="43551, 46919, 13, 13">
                   <nodes>
-                    <node id="37" text="相关性系数" x="505" y="480" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="491, 484, 13, 13">
+                    <node id="37" text="相关性系数" x="43415" y="46899" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="43401, 46903, 13, 13">
                       <nodes>
-                        <node id="38" text="Pearson相关系数这样的统计检验" x="233" y="480" width="192" height="21" text_b="2, 2, 188, 17" />
+                        <node id="38" text="Pearson相关系数这样的统计检验" x="43143" y="46899" width="192" height="21" text_b="2, 2, 188, 17" />
                       </nodes>
                       <lines>
-                        <line target="38" begin_side="Left" end_side="Right" begin_rect="492, 480, 83, 21" end_rect="233, 480, 192, 21" />
+                        <line target="38" begin_side="Left" end_side="Right" begin_rect="43402, 46899, 83, 21" end_rect="43143, 46899, 192, 21" />
                       </lines>
                     </node>
-                    <node id="39" text="散点图" x="529" y="511" width="46" height="21" text_b="2, 2, 42, 17" />
+                    <node id="39" text="散点图" x="43439" y="46930" width="46" height="21" text_b="2, 2, 42, 17" />
                   </nodes>
                   <lines>
-                    <line target="37" begin_side="Left" end_side="Right" begin_rect="642, 496, 96, 21" end_rect="505, 480, 70, 21" />
-                    <line target="39" begin_side="Left" end_side="Right" begin_rect="642, 496, 96, 21" end_rect="529, 511, 46, 21" />
+                    <line target="37" begin_side="Left" end_side="Right" begin_rect="43552, 46915, 96, 21" end_rect="43415, 46899, 70, 21" />
+                    <line target="39" begin_side="Left" end_side="Right" begin_rect="43552, 46915, 96, 21" end_rect="43439, 46930, 46, 21" />
                   </lines>
                 </node>
+              </nodes>
+              <lines />
+            </node>
+            <node id="11" text="数据序列的加载" x="111" y="481" width="95" height="21" folded="True" text_b="2, 2, 91, 17" fold_btn_b="97, 485, 13, 13">
+              <nodes>
+                <node id="12" text="预览数据" x="89673" y="66758" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="89659, 66762, 13, 13">
+                  <nodes>
+                    <node id="13" text="series.head(10)" x="89496" y="66758" width="97" height="21" text_b="2, 2, 93, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="13" begin_side="Left" end_side="Right" begin_rect="89660, 66758, 71, 21" end_rect="89496, 66758, 97, 21" />
+                  </lines>
+                </node>
+                <node id="14" text="按时间查询" x="89661" y="66789" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="89647, 66793, 13, 13">
+                  <nodes>
+                    <node id="15" text="series['1959-01']" x="89476" y="66789" width="105" height="21" text_b="2, 2, 101, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="15" begin_side="Left" end_side="Right" begin_rect="89648, 66789, 83, 21" end_rect="89476, 66789, 105, 21" />
+                  </lines>
+                </node>
+                <node id="16" text="描述性统计" x="89661" y="66820" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="89647, 66824, 13, 13">
+                  <nodes>
+                    <node id="17" text="series.describe()" x="89478" y="66820" width="103" height="21" text_b="2, 2, 99, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="17" begin_side="Left" end_side="Right" begin_rect="89648, 66820, 83, 21" end_rect="89478, 66820, 103, 21" />
+                  </lines>
+                </node>
+                <node id="18" text="观察数量" x="89673" y="66851" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="89659, 66855, 13, 13">
+                  <nodes>
+                    <node id="19" text="series.size" x="89526" y="66851" width="67" height="21" text_b="2, 2, 63, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="19" begin_side="Left" end_side="Right" begin_rect="89660, 66851, 71, 21" end_rect="89526, 66851, 67, 21" />
+                  </lines>
+                </node>
+                <node id="20" text="加载CSV数据" x="89649" y="66898" width="82" height="21" text_b="2, 2, 78, 17" fold_btn_b="89635, 66902, 13, 13">
+                  <nodes>
+                    <node id="21" text="header=0, parse_dates=[0], index_col=0, squeeze=True" x="89233" y="66882" width="336" height="21" text_b="2, 2, 332, 17" />
+                    <node id="22" text="加载时间序列作为Series对象而不是DataFrame" x="89301" y="66913" width="268" height="21" text_b="2, 2, 264, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="21" begin_side="Left" end_side="Right" begin_rect="89636, 66898, 95, 21" end_rect="89233, 66882, 336, 21" />
+                    <line target="22" begin_side="Left" end_side="Right" begin_rect="89636, 66898, 95, 21" end_rect="89301, 66913, 268, 21" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines />
+            </node>
+            <node id="23" text="数据可视化" x="451" y="138" width="70" height="21" folded="True" text_b="2, 2, 66, 17" fold_btn_b="522, 142, 13, 13">
+              <nodes>
+                <node id="24" text="散点图" x="91123" y="67058" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="91170, 67062, 13, 13">
+                  <nodes>
+                    <node id="25" text="pyplot.scatter(x, y)" x="91249" y="67058" width="117" height="21" text_b="2, 2, 113, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="25" begin_side="Right" end_side="Left" begin_rect="91123, 67058, 59, 21" end_rect="91249, 67058, 117, 21" />
+                  </lines>
+                </node>
+                <node id="26" text="盒子晶须图" x="91123" y="67089" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="91194, 67093, 13, 13">
+                  <nodes>
+                    <node id="27" text="pyplot.boxplot(x)" x="91273" y="67089" width="110" height="21" text_b="2, 2, 106, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="27" begin_side="Right" end_side="Left" begin_rect="91123, 67089, 83, 21" end_rect="91273, 67089, 110, 21" />
+                  </lines>
+                </node>
+                <node id="28" text="直方图" x="91123" y="67120" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="91170, 67124, 13, 13">
+                  <nodes>
+                    <node id="29" text="pyplot.hist(x)" x="91249" y="67120" width="85" height="21" text_b="2, 2, 81, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="29" begin_side="Right" end_side="Left" begin_rect="91123, 67120, 59, 21" end_rect="91249, 67120, 85, 21" />
+                  </lines>
+                </node>
+                <node id="30" text="条形图" x="91123" y="67151" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="91170, 67155, 13, 13">
+                  <nodes>
+                    <node id="31" text="pyplot.bar(x, y)" x="91249" y="67151" width="97" height="21" text_b="2, 2, 93, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="31" begin_side="Right" end_side="Left" begin_rect="91123, 67151, 59, 21" end_rect="91249, 67151, 97, 21" />
+                  </lines>
+                </node>
+                <node id="32" text="线图" x="91123" y="67182" width="33" height="21" text_b="2, 2, 29, 17" fold_btn_b="91157, 67186, 13, 13">
+                  <nodes>
+                    <node id="33" text="pyplot.plot(x, y)" x="91236" y="67182" width="101" height="21" text_b="2, 2, 97, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="33" begin_side="Right" end_side="Left" begin_rect="91123, 67182, 46, 21" end_rect="91236, 67182, 101, 21" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines />
+            </node>
+            <node id="2" text="持久性算法，一致化映射法则" x="451" y="232" width="169" height="21" folded="True" text_b="2, 2, 165, 17" fold_btn_b="621, 236, 13, 13">
+              <nodes>
+                <node id="3" text="设置评估参数" x="127802" y="88485" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="127788, 88489, 13, 13">
+                  <nodes>
+                    <node id="4" text="# 配置模型评估参数&#xD;&#xA;predictions = list()&#xD;&#xA;for x in test_X:&#xD;&#xA;	    yhat = model_persistence(x)&#xD;&#xA;	    predictions.append(yhat)&#xD;&#xA;test_score = mean_squared_error(test_y, predictions)&#xD;&#xA;print('Test MSE: %.3f' % test_score)" x="127402" y="88439" width="320" height="113" text_b="2, 2, 316, 109">
+                      <style>
+                        <text_align>Left</text_align>
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="4" begin_side="Left" end_side="Right" begin_rect="127789, 88485, 96, 21" end_rect="127402, 88439, 320, 113" />
+                  </lines>
+                </node>
+                <node id="5" text="建立一种映射关系" x="127778" y="88578" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="127764, 88582, 13, 13">
+                  <nodes>
+                    <node id="6" text="# 建立映射模型&#xD;&#xA;def model_persistence(x):&#xD;&#xA;	    return x" x="127539" y="88562" width="159" height="52" text_b="2, 2, 155, 48">
+                      <style>
+                        <text_align>Left</text_align>
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="6" begin_side="Left" end_side="Right" begin_rect="127765, 88578, 120, 21" end_rect="127539, 88562, 159, 52" />
+                  </lines>
+                </node>
+                <node id="7" text="分割训练集和测试集" x="127765" y="88662" width="120" height="21" text_b="2, 2, 116, 17" fold_btn_b="127751, 88666, 13, 13">
+                  <nodes>
+                    <node id="8" text="# 分割训练集和测试集&#xD;&#xA;X = dataframe.values&#xD;&#xA;train_size = int(len(X) * 0.66)&#xD;&#xA;train, test = X[1:train_size], X[train_size:]&#xD;&#xA;train_X, train_y = train[:,0], train[:,1]&#xD;&#xA;test_X, test_y = test[:,0], test[:,1]" x="127443" y="88624" width="242" height="97" text_b="2, 2, 238, 93">
+                      <style>
+                        <text_align>Left</text_align>
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="8" begin_side="Left" end_side="Right" begin_rect="127752, 88662, 133, 21" end_rect="127443, 88624, 242, 97" />
+                  </lines>
+                </node>
+                <node id="9" text="定义监督学习结构" x="127778" y="88762" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="127764, 88766, 13, 13">
+                  <nodes>
+                    <node id="10" text="# 创建格式化数据&#xD;&#xA;values = DataFrame(series.values)&#xD;&#xA;dataframe = concat([values.shift(1), values], axis=1)&#xD;&#xA;dataframe.columns = ['t-1', 't+1']&#xD;&#xA;print(dataframe.head(5))" x="127387" y="88731" width="311" height="82" text_b="2, 2, 307, 78">
+                      <style>
+                        <text_align>Left</text_align>
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="10" begin_side="Left" end_side="Right" begin_rect="127765, 88762, 120, 21" end_rect="127387, 88731, 311, 82" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines />
+            </node>
+            <node id="1" text="完整实例" x="451" y="481" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="510, 485, 13, 13">
+              <nodes>
+                <node id="2" text="ARIMA建模" x="589" y="435" width="74" height="21" text_b="2, 2, 70, 17" fold_btn_b="664, 439, 13, 13">
+                  <nodes>
+                    <node id="22" text="残差检验" x="743" y="357" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="802, 361, 13, 13">
+                      <nodes>
+                        <node id="23" text="每个预测值减去残差均值，再做残差检验看是否均值接近0" x="881" y="326" width="325" height="21" text_b="2, 2, 321, 17" />
+                        <node id="24" text="看残差是否符合高斯分布" x="881" y="357" width="144" height="21" text_b="2, 2, 140, 17" />
+                        <node id="25" text="计算残差的均值" x="881" y="388" width="95" height="21" text_b="2, 2, 91, 17" />
+                      </nodes>
+                      <lines>
+                        <line target="23" begin_side="Right" end_side="Left" begin_rect="743, 357, 71, 21" end_rect="881, 326, 325, 21" />
+                        <line target="24" begin_side="Right" end_side="Left" begin_rect="743, 357, 71, 21" end_rect="881, 357, 144, 21" />
+                        <line target="25" begin_side="Right" end_side="Left" begin_rect="743, 357, 71, 21" end_rect="881, 388, 95, 21" />
+                      </lines>
+                    </node>
+                    <node id="26" text="自动配置参数" x="743" y="435" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="827, 439, 13, 13">
+                      <nodes>
+                        <node id="27" text="网格的搜索范围看自相关图大致范围" x="906" y="419" width="206" height="21" text_b="2, 2, 202, 17" />
+                        <node id="28" text="网格搜索找到最小的RMES对应的参数" x="906" y="450" width="216" height="21" text_b="2, 2, 212, 17" />
+                      </nodes>
+                      <lines>
+                        <line target="27" begin_side="Right" end_side="Left" begin_rect="743, 435, 96, 21" end_rect="906, 419, 206, 21" />
+                        <line target="28" begin_side="Right" end_side="Left" begin_rect="743, 435, 96, 21" end_rect="906, 450, 216, 21" />
+                      </lines>
+                    </node>
+                    <node id="3" text="手动配置参数" x="743" y="512" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="827, 516, 13, 13">
+                      <nodes>
+                        <node id="29" text="PACF确定偏自相关系数" x="906" y="481" width="138" height="21" text_b="2, 2, 134, 17" />
+                        <node id="30" text="ACF确定自相关系数" x="906" y="512" width="119" height="21" folded="True" text_b="2, 2, 115, 17" fold_btn_b="1026, 516, 13, 13">
+                          <nodes>
+                            <node id="31" text="有趋势存在的图有明显的拖尾现象" x="7151" y="7540" width="194" height="21" text_b="2, 2, 190, 17" />
+                            <node id="32" text="通过自相关图确定AR,MA,ARIMA" x="7151" y="7571" width="192" height="21" text_b="2, 2, 188, 17" />
+                            <node id="33" text="看有几个值显著高于区间范围，参数就选几" x="7151" y="7602" width="243" height="21" text_b="2, 2, 239, 17" />
+                          </nodes>
+                          <lines />
+                        </node>
+                        <node id="34" text="差分d" x="906" y="543" width="41" height="21" folded="True" text_b="2, 2, 37, 17" fold_btn_b="948, 547, 13, 13">
+                          <nodes>
+                            <node id="35" text="静态化后的数据静态，则不需要差分，d=0" x="6745" y="7205" width="243" height="21" text_b="2, 2, 239, 17" />
+                            <node id="4" text="使数据静态化" x="6745" y="7236" width="83" height="21" text_b="2, 2, 79, 17" />
+                            <node id="36" text="Dickey-Fuller测试平稳性" x="6745" y="7267" width="147" height="21" folded="True" text_b="2, 2, 143, 17" fold_btn_b="6893, 7271, 13, 13">
+                              <nodes>
+                                <node id="37" text="根据ADF是否小于1%数值判断是否有单根" x="14844" y="16717" width="237" height="21" text_b="2, 2, 233, 17" />
+                                <node id="38" text="如果存在单根则不是静态数据" x="14844" y="16748" width="169" height="21" text_b="2, 2, 165, 17" />
+                                <node id="39" text="看是否存在单根" x="14844" y="16779" width="95" height="21" text_b="2, 2, 91, 17" />
+                              </nodes>
+                              <lines />
+                            </node>
+                          </nodes>
+                          <lines />
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="29" begin_side="Right" end_side="Left" begin_rect="743, 512, 96, 21" end_rect="906, 481, 138, 21" />
+                        <line target="30" begin_side="Right" end_side="Left" begin_rect="743, 512, 96, 21" end_rect="906, 512, 119, 21" />
+                        <line target="34" begin_side="Right" end_side="Left" begin_rect="743, 512, 96, 21" end_rect="906, 543, 41, 21" />
+                      </lines>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="22" begin_side="Right" end_side="Left" begin_rect="589, 435, 87, 21" end_rect="743, 357, 58, 21" />
+                    <line target="26" begin_side="Right" end_side="Left" begin_rect="589, 435, 87, 21" end_rect="743, 435, 83, 21" />
+                    <line target="3" begin_side="Right" end_side="Left" begin_rect="589, 435, 87, 21" end_rect="743, 512, 83, 21" />
+                  </lines>
+                </node>
+                <node id="5" text="数据可视化分析" x="589" y="574" width="95" height="21" folded="True" text_b="2, 2, 91, 17" fold_btn_b="685, 578, 13, 13">
+                  <nodes>
+                    <node id="6" text="盒子晶须图" x="26393" y="29392" width="70" height="21" folded="True" text_b="2, 2, 66, 17" fold_btn_b="26464, 29396, 13, 13">
+                      <nodes>
+                        <node id="7" text="异常值" x="26896" y="29759" width="46" height="21" text_b="2, 2, 42, 17" />
+                        <node id="8" text="50%数据分布" x="26896" y="29790" width="83" height="21" text_b="2, 2, 79, 17" />
+                        <node id="9" text="中值" x="26896" y="29821" width="33" height="21" text_b="2, 2, 29, 17" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="10" text="密度图" x="26393" y="29439" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="26440, 29443, 13, 13">
+                      <nodes>
+                        <node id="11" text="指数分布的尾部部分" x="26519" y="29423" width="120" height="21" text_b="2, 2, 116, 17" />
+                        <node id="12" text="是否是高斯分布" x="26519" y="29454" width="95" height="21" text_b="2, 2, 91, 17" />
+                      </nodes>
+                      <lines>
+                        <line target="11" begin_side="Right" end_side="Left" begin_rect="26393, 29439, 59, 21" end_rect="26519, 29423, 120, 21" />
+                        <line target="12" begin_side="Right" end_side="Left" begin_rect="26393, 29439, 59, 21" end_rect="26519, 29454, 95, 21" />
+                      </lines>
+                    </node>
+                    <node id="13" text="季节线图" x="26393" y="29485" width="58" height="21" text_b="2, 2, 54, 17" />
+                    <node id="14" text="线图" x="26393" y="29516" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="26427, 29520, 13, 13">
+                      <nodes>
+                        <node id="15" text="异常值" x="32860" y="36581" width="46" height="21" text_b="2, 2, 42, 17" />
+                        <node id="16" text="季节性" x="32860" y="36612" width="46" height="21" text_b="2, 2, 42, 17" />
+                        <node id="17" text="趋势" x="32860" y="36643" width="33" height="21" text_b="2, 2, 29, 17" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="18" text="series.describe()" x="26393" y="29547" width="103" height="21" text_b="2, 2, 99, 17" fold_btn_b="26497, 29551, 13, 13">
+                      <nodes>
+                        <node id="19" text="基本数据统计信息" x="26576" y="29547" width="107" height="21" text_b="2, 2, 103, 17" />
+                      </nodes>
+                      <lines>
+                        <line target="19" begin_side="Right" end_side="Left" begin_rect="26393, 29547, 116, 21" end_rect="26576, 29547, 107, 21" />
+                      </lines>
+                    </node>
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="20" text="基线预测" x="589" y="605" width="58" height="21" text_b="2, 2, 54, 17" />
+                <node id="21" text="数据分割" x="589" y="636" width="58" height="21" text_b="2, 2, 54, 17" />
               </nodes>
               <lines>
-                <line target="35" begin_side="Left" end_side="Right" begin_rect="805, 480, 100, 21" end_rect="668, 449, 70, 21" />
-                <line target="36" begin_side="Left" end_side="Right" begin_rect="805, 480, 100, 21" end_rect="655, 496, 83, 21" />
+                <line target="2" begin_side="Right" end_side="Left" begin_rect="451, 481, 71, 21" end_rect="589, 435, 74, 21" />
+                <line target="5" begin_side="Right" end_side="Left" begin_rect="451, 481, 71, 21" end_rect="589, 574, 95, 21" />
+                <line target="20" begin_side="Right" end_side="Left" begin_rect="451, 481, 71, 21" end_rect="589, 605, 58, 21" />
+                <line target="21" begin_side="Right" end_side="Left" begin_rect="451, 481, 71, 21" end_rect="589, 636, 58, 21" />
               </lines>
-            </node>
-            <node id="11" text="数据序列的加载" x="810" y="605" width="95" height="21" folded="True" text_b="2, 2, 91, 17" fold_btn_b="796, 609, 13, 13">
-              <nodes>
-                <node id="12" text="预览数据" x="36493" y="16276" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="36479, 16280, 13, 13">
-                  <nodes>
-                    <node id="13" text="series.head(10)" x="36316" y="16276" width="97" height="21" text_b="2, 2, 93, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="13" begin_side="Left" end_side="Right" begin_rect="36480, 16276, 71, 21" end_rect="36316, 16276, 97, 21" />
-                  </lines>
-                </node>
-                <node id="14" text="按时间查询" x="36481" y="16307" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="36467, 16311, 13, 13">
-                  <nodes>
-                    <node id="15" text="series['1959-01']" x="36296" y="16307" width="105" height="21" text_b="2, 2, 101, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="15" begin_side="Left" end_side="Right" begin_rect="36468, 16307, 83, 21" end_rect="36296, 16307, 105, 21" />
-                  </lines>
-                </node>
-                <node id="16" text="描述性统计" x="36481" y="16338" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="36467, 16342, 13, 13">
-                  <nodes>
-                    <node id="17" text="series.describe()" x="36298" y="16338" width="103" height="21" text_b="2, 2, 99, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="17" begin_side="Left" end_side="Right" begin_rect="36468, 16338, 83, 21" end_rect="36298, 16338, 103, 21" />
-                  </lines>
-                </node>
-                <node id="18" text="观察数量" x="36493" y="16369" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="36479, 16373, 13, 13">
-                  <nodes>
-                    <node id="19" text="series.size" x="36346" y="16369" width="67" height="21" text_b="2, 2, 63, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="19" begin_side="Left" end_side="Right" begin_rect="36480, 16369, 71, 21" end_rect="36346, 16369, 67, 21" />
-                  </lines>
-                </node>
-                <node id="20" text="加载CSV数据" x="36469" y="16416" width="82" height="21" text_b="2, 2, 78, 17" fold_btn_b="36455, 16420, 13, 13">
-                  <nodes>
-                    <node id="21" text="header=0, parse_dates=[0], index_col=0, squeeze=True" x="36053" y="16400" width="336" height="21" text_b="2, 2, 332, 17" />
-                    <node id="22" text="加载时间序列作为Series对象而不是DataFrame" x="36121" y="16431" width="268" height="21" text_b="2, 2, 264, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="21" begin_side="Left" end_side="Right" begin_rect="36456, 16416, 95, 21" end_rect="36053, 16400, 336, 21" />
-                    <line target="22" begin_side="Left" end_side="Right" begin_rect="36456, 16416, 95, 21" end_rect="36121, 16431, 268, 21" />
-                  </lines>
-                </node>
-              </nodes>
-              <lines />
-            </node>
-            <node id="23" text="数据可视化" x="1150" y="346" width="70" height="21" folded="True" text_b="2, 2, 66, 17" fold_btn_b="1221, 350, 13, 13">
-              <nodes>
-                <node id="24" text="散点图" x="37943" y="16576" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="37990, 16580, 13, 13">
-                  <nodes>
-                    <node id="25" text="pyplot.scatter(x, y)" x="38069" y="16576" width="117" height="21" text_b="2, 2, 113, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="25" begin_side="Right" end_side="Left" begin_rect="37943, 16576, 59, 21" end_rect="38069, 16576, 117, 21" />
-                  </lines>
-                </node>
-                <node id="26" text="盒子晶须图" x="37943" y="16607" width="70" height="21" text_b="2, 2, 66, 17" fold_btn_b="38014, 16611, 13, 13">
-                  <nodes>
-                    <node id="27" text="pyplot.boxplot(x)" x="38093" y="16607" width="110" height="21" text_b="2, 2, 106, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="27" begin_side="Right" end_side="Left" begin_rect="37943, 16607, 83, 21" end_rect="38093, 16607, 110, 21" />
-                  </lines>
-                </node>
-                <node id="28" text="直方图" x="37943" y="16638" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="37990, 16642, 13, 13">
-                  <nodes>
-                    <node id="29" text="pyplot.hist(x)" x="38069" y="16638" width="85" height="21" text_b="2, 2, 81, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="29" begin_side="Right" end_side="Left" begin_rect="37943, 16638, 59, 21" end_rect="38069, 16638, 85, 21" />
-                  </lines>
-                </node>
-                <node id="30" text="条形图" x="37943" y="16669" width="46" height="21" text_b="2, 2, 42, 17" fold_btn_b="37990, 16673, 13, 13">
-                  <nodes>
-                    <node id="31" text="pyplot.bar(x, y)" x="38069" y="16669" width="97" height="21" text_b="2, 2, 93, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="31" begin_side="Right" end_side="Left" begin_rect="37943, 16669, 59, 21" end_rect="38069, 16669, 97, 21" />
-                  </lines>
-                </node>
-                <node id="32" text="线图" x="37943" y="16700" width="33" height="21" text_b="2, 2, 29, 17" fold_btn_b="37977, 16704, 13, 13">
-                  <nodes>
-                    <node id="33" text="pyplot.plot(x, y)" x="38056" y="16700" width="101" height="21" text_b="2, 2, 97, 17" />
-                  </nodes>
-                  <lines>
-                    <line target="33" begin_side="Right" end_side="Left" begin_rect="37943, 16700, 46, 21" end_rect="38056, 16700, 101, 21" />
-                  </lines>
-                </node>
-              </nodes>
-              <lines />
-            </node>
-            <node id="2" text="持久性算法，一致化映射法则" x="1150" y="427" width="169" height="21" folded="True" text_b="2, 2, 165, 17" fold_btn_b="1320, 431, 13, 13">
-              <nodes>
-                <node id="3" text="设置评估参数" x="74622" y="38003" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="74608, 38007, 13, 13">
-                  <nodes>
-                    <node id="4" text="# 配置模型评估参数&#xD;&#xA;predictions = list()&#xD;&#xA;for x in test_X:&#xD;&#xA;	    yhat = model_persistence(x)&#xD;&#xA;	    predictions.append(yhat)&#xD;&#xA;test_score = mean_squared_error(test_y, predictions)&#xD;&#xA;print('Test MSE: %.3f' % test_score)" x="74222" y="37957" width="320" height="113" text_b="2, 2, 316, 109">
-                      <style>
-                        <text_align>Left</text_align>
-                      </style>
-                    </node>
-                  </nodes>
-                  <lines>
-                    <line target="4" begin_side="Left" end_side="Right" begin_rect="74609, 38003, 96, 21" end_rect="74222, 37957, 320, 113" />
-                  </lines>
-                </node>
-                <node id="5" text="建立一种映射关系" x="74598" y="38096" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="74584, 38100, 13, 13">
-                  <nodes>
-                    <node id="6" text="# 建立映射模型&#xD;&#xA;def model_persistence(x):&#xD;&#xA;	    return x" x="74359" y="38080" width="159" height="52" text_b="2, 2, 155, 48">
-                      <style>
-                        <text_align>Left</text_align>
-                      </style>
-                    </node>
-                  </nodes>
-                  <lines>
-                    <line target="6" begin_side="Left" end_side="Right" begin_rect="74585, 38096, 120, 21" end_rect="74359, 38080, 159, 52" />
-                  </lines>
-                </node>
-                <node id="7" text="分割训练集和测试集" x="74585" y="38180" width="120" height="21" text_b="2, 2, 116, 17" fold_btn_b="74571, 38184, 13, 13">
-                  <nodes>
-                    <node id="8" text="# 分割训练集和测试集&#xD;&#xA;X = dataframe.values&#xD;&#xA;train_size = int(len(X) * 0.66)&#xD;&#xA;train, test = X[1:train_size], X[train_size:]&#xD;&#xA;train_X, train_y = train[:,0], train[:,1]&#xD;&#xA;test_X, test_y = test[:,0], test[:,1]" x="74263" y="38142" width="242" height="97" text_b="2, 2, 238, 93">
-                      <style>
-                        <text_align>Left</text_align>
-                      </style>
-                    </node>
-                  </nodes>
-                  <lines>
-                    <line target="8" begin_side="Left" end_side="Right" begin_rect="74572, 38180, 133, 21" end_rect="74263, 38142, 242, 97" />
-                  </lines>
-                </node>
-                <node id="9" text="定义监督学习结构" x="74598" y="38280" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="74584, 38284, 13, 13">
-                  <nodes>
-                    <node id="10" text="# 创建格式化数据&#xD;&#xA;values = DataFrame(series.values)&#xD;&#xA;dataframe = concat([values.shift(1), values], axis=1)&#xD;&#xA;dataframe.columns = ['t-1', 't+1']&#xD;&#xA;print(dataframe.head(5))" x="74207" y="38249" width="311" height="82" text_b="2, 2, 307, 78">
-                      <style>
-                        <text_align>Left</text_align>
-                      </style>
-                    </node>
-                  </nodes>
-                  <lines>
-                    <line target="10" begin_side="Left" end_side="Right" begin_rect="74585, 38280, 120, 21" end_rect="74207, 38249, 311, 82" />
-                  </lines>
-                </node>
-              </nodes>
-              <lines />
             </node>
           </nodes>
           <lines>
-            <line target="1" begin_side="Left" end_side="Right" begin_rect="985, 377, 85, 41" end_rect="719, 262, 186, 21" />
-            <line target="34" begin_side="Left" end_side="Right" begin_rect="985, 377, 85, 41" end_rect="818, 480, 87, 21" />
-            <line target="11" begin_side="Left" end_side="Right" begin_rect="985, 377, 85, 41" end_rect="810, 605, 95, 21" />
-            <line target="23" begin_side="Right" end_side="Left" begin_rect="985, 377, 85, 41" end_rect="1150, 346, 70, 21" />
-            <line target="2" begin_side="Right" end_side="Left" begin_rect="985, 377, 85, 41" end_rect="1150, 427, 169, 21" />
+            <line target="1" begin_side="Left" end_side="Right" begin_rect="286, 377, 85, 41" end_rect="20, 293, 186, 21" />
+            <line target="34" begin_side="Left" end_side="Right" begin_rect="286, 377, 85, 41" end_rect="119, 387, 87, 21" />
+            <line target="11" begin_side="Left" end_side="Right" begin_rect="286, 377, 85, 41" end_rect="111, 481, 95, 21" />
+            <line target="23" begin_side="Right" end_side="Left" begin_rect="286, 377, 85, 41" end_rect="451, 138, 70, 21" />
+            <line target="2" begin_side="Right" end_side="Left" begin_rect="286, 377, 85, 41" end_rect="451, 232, 169, 21" />
+            <line target="1" begin_side="Right" end_side="Left" begin_rect="286, 377, 85, 41" end_rect="451, 481, 58, 21" />
           </lines>
         </node>
       </nodes>
