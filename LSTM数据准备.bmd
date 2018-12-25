@@ -31,7 +31,7 @@
         <picture_thumb_size>100, 100</picture_thumb_size>
       </style>
       <nodes>
-        <node id="1" text="LSTM" x="404" y="377" width="61" height="41" text_b="12, 12, 37, 17">
+        <node id="1" text="LSTM" x="545" y="379" width="53" height="38" text_b="12, 12, 29, 14">
           <style>
             <back_color>Silver</back_color>
             <fore_color>Black</fore_color>
@@ -39,367 +39,377 @@
             <padding>12</padding>
           </style>
           <nodes>
-            <node id="3" text="数据准备" x="266" y="269" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="252, 273, 13, 13">
+            <node id="3" text="数据准备" x="407" y="273" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="393, 277, 13, 13">
               <nodes>
-                <node id="78" text="数据类型" x="128" y="176" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="114, 180, 13, 13">
+                <node id="78" text="数据类型" x="269" y="183" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="255, 187, 13, 13">
                   <nodes>
-                    <node id="79" text="半监督" x="19896" y="15008" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="19882, 15012, 13, 13">
+                    <node id="79" text="半监督" x="29905" y="24162" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="29891, 24166, 13, 13">
                       <nodes>
-                        <node id="89" text="数据人工标注的成本过于昂贵" x="26995" y="18382" width="169" height="20" text_b="2, 2, 165, 16" />
-                        <node id="90" text="但是大量的输入X只有少部分被标注了对应的输出y" x="26884" y="18412" width="280" height="20" text_b="2, 2, 276, 16" />
-                        <node id="88" text="数据有输入输出对应关系" x="27020" y="18442" width="144" height="20" text_b="2, 2, 140, 16" />
+                        <node id="89" text="数据人工标注的成本过于昂贵" x="37004" y="27536" width="169" height="20" text_b="2, 2, 165, 16" />
+                        <node id="90" text="但是大量的输入X只有少部分被标注了对应的输出y" x="36893" y="27566" width="280" height="20" text_b="2, 2, 276, 16" />
+                        <node id="88" text="数据有输入输出对应关系" x="37029" y="27596" width="144" height="20" text_b="2, 2, 140, 16" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="80" text="无监督" x="19896" y="15038" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="19882, 15042, 13, 13">
+                    <node id="80" text="无监督" x="29905" y="24192" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="29891, 24196, 13, 13">
                       <nodes>
-                        <node id="81" text="分为回归和分类两种" x="26168" y="18042" width="120" height="20" text_b="2, 2, 116, 16" />
-                        <node id="82" text="只是分析数据的结构和内在规律" x="26107" y="18072" width="181" height="20" text_b="2, 2, 177, 16" />
-                        <node id="83" text="数据是一个序列，没有对应关系" x="26107" y="18102" width="181" height="20" text_b="2, 2, 177, 16" />
+                        <node id="81" text="分为回归和分类两种" x="36177" y="27196" width="120" height="20" text_b="2, 2, 116, 16" />
+                        <node id="82" text="只是分析数据的结构和内在规律" x="36116" y="27226" width="181" height="20" text_b="2, 2, 177, 16" />
+                        <node id="83" text="数据是一个序列，没有对应关系" x="36116" y="27256" width="181" height="20" text_b="2, 2, 177, 16" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="84" text="有监督" x="19896" y="15068" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="19882, 15072, 13, 13">
+                    <node id="84" text="有监督" x="29905" y="24222" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="29891, 24226, 13, 13">
                       <nodes>
-                        <node id="85" text="根据输入对输出进行预测" x="25268" y="17704" width="144" height="20" text_b="2, 2, 140, 16" />
-                        <node id="86" text="数据有输入输出对应关系" x="25268" y="17734" width="144" height="20" text_b="2, 2, 140, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="5" text="截断反向传播的序列" x="66" y="207" width="120" height="21" folded="True" text_b="2, 2, 116, 17" fold_btn_b="52, 211, 13, 13">
-                  <nodes>
-                    <node id="6" text="把输入数据拆分成适合网络学习的大小" x="20403" y="15466" width="219" height="20" text_b="2, 2, 215, 16" />
-                    <node id="7" text="6种技术" x="20570" y="15496" width="52" height="20" folded="True" text_b="2, 2, 48, 16" fold_btn_b="20556, 15500, 13, 13">
-                      <nodes>
-                        <node id="8" text="解耦向前和向后" x="137198" y="72224" width="95" height="20" text_b="2, 2, 91, 16" />
-                        <node id="9" text="依靠内部状态" x="137210" y="72254" width="83" height="20" text_b="2, 2, 79, 16" />
-                        <node id="10" text="系统数据拆分" x="137210" y="72284" width="83" height="20" text_b="2, 2, 79, 16" />
-                        <node id="11" text="特定域的拆分" x="137210" y="72314" width="83" height="20" text_b="2, 2, 79, 16" />
-                        <node id="12" text="朴素的拆分" x="137223" y="72344" width="70" height="20" text_b="2, 2, 66, 16" />
-                        <node id="13" text="原样数据" x="137235" y="72374" width="58" height="20" text_b="2, 2, 54, 16" />
-                      </nodes>
-                      <lines />
-                    </node>
-                    <node id="14" text="两个参数" x="20564" y="15526" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="20550, 15530, 13, 13">
-                      <nodes>
-                        <node id="15" text="在向后传递上估计渐变时要查看的时间步数" x="136149" y="71931" width="243" height="20" text_b="2, 2, 239, 16" />
-                        <node id="16" text="正向传递上显示给网络的时间步数" x="136198" y="71961" width="194" height="20" text_b="2, 2, 190, 16" />
+                        <node id="85" text="根据输入对输出进行预测" x="35277" y="26858" width="144" height="20" text_b="2, 2, 140, 16" />
+                        <node id="86" text="数据有输入输出对应关系" x="35277" y="26888" width="144" height="20" text_b="2, 2, 140, 16" />
                       </nodes>
                       <lines />
                     </node>
                   </nodes>
                   <lines />
                 </node>
-                <node id="4" text="处理缺失的时间步长" x="66" y="238" width="120" height="21" folded="True" text_b="2, 2, 116, 17" fold_btn_b="52, 242, 13, 13">
+                <node id="5" text="截断反向传播的序列" x="207" y="213" width="120" height="20" folded="True" text_b="2, 2, 116, 16" fold_btn_b="193, 217, 13, 13">
                   <nodes>
-                    <node id="5" text="补全可以学习但有缺失的映射" x="21195" y="15924" width="169" height="20" text_b="2, 2, 165, 16" />
-                    <node id="6" text="删除无法学习的映射" x="21244" y="15954" width="120" height="20" text_b="2, 2, 116, 16" />
-                    <node id="7" text="通过位移变成函数映射" x="21232" y="15984" width="132" height="20" text_b="2, 2, 128, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="8" text="消除趋势性和季节性" x="66" y="269" width="120" height="21" folded="True" text_b="2, 2, 116, 17" fold_btn_b="52, 273, 13, 13">
-                  <nodes>
-                    <node id="9" text="差分法" x="22060" y="16412" width="46" height="20" text_b="2, 2, 42, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="10" text="数据的规范化" x="103" y="300" width="83" height="21" folded="True" text_b="2, 2, 79, 17" fold_btn_b="89, 304, 13, 13">
-                  <nodes>
-                    <node id="11" text="标准化" x="24591" y="17561" width="46" height="20" text_b="2, 2, 42, 16" />
-                    <node id="12" text="归一化" x="24591" y="17591" width="46" height="20" text_b="2, 2, 42, 16" />
-                  </nodes>
-                  <lines />
-                </node>
-                <node id="13" text="网络输入数据结构的构造" x="42" y="331" width="144" height="21" folded="True" text_b="2, 2, 140, 17" fold_btn_b="28, 335, 13, 13">
-                  <nodes>
-                    <node id="1" text="数据结构和输入结果" x="23580" y="17223" width="120" height="20" text_b="2, 2, 116, 16" fold_btn_b="23566, 17227, 13, 13">
+                    <node id="6" text="把输入数据拆分成适合网络学习的大小" x="30412" y="24620" width="219" height="20" text_b="2, 2, 215, 16" />
+                    <node id="7" text="6种技术" x="30579" y="24650" width="52" height="20" folded="True" text_b="2, 2, 48, 16" fold_btn_b="30565, 24654, 13, 13">
                       <nodes>
-                        <node id="2" text="input_shape=(步长,特征值)" x="23337" y="17208" width="163" height="20" text_b="2, 2, 159, 16" />
-                        <node id="3" text="reshape(样本数, 步长, 特征值)" x="23312" y="17238" width="188" height="20" text_b="2, 2, 184, 16" />
+                        <node id="8" text="解耦向前和向后" x="147207" y="81378" width="95" height="20" text_b="2, 2, 91, 16" />
+                        <node id="9" text="依靠内部状态" x="147219" y="81408" width="83" height="20" text_b="2, 2, 79, 16" />
+                        <node id="10" text="系统数据拆分" x="147219" y="81438" width="83" height="20" text_b="2, 2, 79, 16" />
+                        <node id="11" text="特定域的拆分" x="147219" y="81468" width="83" height="20" text_b="2, 2, 79, 16" />
+                        <node id="12" text="朴素的拆分" x="147232" y="81498" width="70" height="20" text_b="2, 2, 66, 16" />
+                        <node id="13" text="原样数据" x="147244" y="81528" width="58" height="20" text_b="2, 2, 54, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                    <node id="14" text="两个参数" x="30573" y="24680" width="58" height="20" folded="True" text_b="2, 2, 54, 16" fold_btn_b="30559, 24684, 13, 13">
+                      <nodes>
+                        <node id="15" text="在向后传递上估计渐变时要查看的时间步数" x="146158" y="81085" width="243" height="20" text_b="2, 2, 239, 16" />
+                        <node id="16" text="正向传递上显示给网络的时间步数" x="146207" y="81115" width="194" height="20" text_b="2, 2, 190, 16" />
+                      </nodes>
+                      <lines />
+                    </node>
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="4" text="处理缺失的时间步长" x="207" y="243" width="120" height="20" folded="True" text_b="2, 2, 116, 16" fold_btn_b="193, 247, 13, 13">
+                  <nodes>
+                    <node id="5" text="补全可以学习但有缺失的映射" x="31204" y="25078" width="169" height="20" text_b="2, 2, 165, 16" />
+                    <node id="6" text="删除无法学习的映射" x="31253" y="25108" width="120" height="20" text_b="2, 2, 116, 16" />
+                    <node id="7" text="通过位移变成函数映射" x="31241" y="25138" width="132" height="20" text_b="2, 2, 128, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="8" text="消除趋势性和季节性" x="207" y="273" width="120" height="20" folded="True" text_b="2, 2, 116, 16" fold_btn_b="193, 277, 13, 13">
+                  <nodes>
+                    <node id="9" text="差分法" x="32069" y="25566" width="46" height="20" text_b="2, 2, 42, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="10" text="数据的规范化" x="244" y="303" width="83" height="20" folded="True" text_b="2, 2, 79, 16" fold_btn_b="230, 307, 13, 13">
+                  <nodes>
+                    <node id="11" text="标准化" x="34600" y="26715" width="46" height="20" text_b="2, 2, 42, 16" />
+                    <node id="12" text="归一化" x="34600" y="26745" width="46" height="20" text_b="2, 2, 42, 16" />
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="13" text="网络输入数据结构的构造" x="183" y="333" width="144" height="20" folded="True" text_b="2, 2, 140, 16" fold_btn_b="169, 337, 13, 13">
+                  <nodes>
+                    <node id="1" text="数据结构和输入结果" x="33589" y="26377" width="120" height="20" text_b="2, 2, 116, 16" fold_btn_b="33575, 26381, 13, 13">
+                      <nodes>
+                        <node id="2" text="input_shape=(步长,特征值)" x="33346" y="26362" width="163" height="20" text_b="2, 2, 159, 16" />
+                        <node id="3" text="reshape(样本数, 步长, 特征值)" x="33321" y="26392" width="188" height="20" text_b="2, 2, 184, 16" />
                       </nodes>
                       <lines>
-                        <line target="2" begin_side="Left" end_side="Right" begin_rect="23567, 17223, 133, 20" end_rect="23337, 17208, 163, 20" />
-                        <line target="3" begin_side="Left" end_side="Right" begin_rect="23567, 17223, 133, 20" end_rect="23312, 17238, 188, 20" />
+                        <line target="2" begin_side="Left" end_side="Right" begin_rect="33576, 26377, 133, 20" end_rect="33346, 26362, 163, 20" />
+                        <line target="3" begin_side="Left" end_side="Right" begin_rect="33576, 26377, 133, 20" end_rect="33321, 26392, 188, 20" />
                       </lines>
                     </node>
-                    <node id="4" text="输入类型" x="23642" y="17283" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="23628, 17287, 13, 13">
+                    <node id="4" text="输入类型" x="33651" y="26437" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="33637, 26441, 13, 13">
                       <nodes>
-                        <node id="5" text="多特征输入" x="23492" y="17268" width="70" height="20" text_b="2, 2, 66, 16" />
-                        <node id="6" text="单特征输入" x="23492" y="17298" width="70" height="20" text_b="2, 2, 66, 16" />
+                        <node id="5" text="多特征输入" x="33501" y="26422" width="70" height="20" text_b="2, 2, 66, 16" />
+                        <node id="6" text="单特征输入" x="33501" y="26452" width="70" height="20" text_b="2, 2, 66, 16" />
                       </nodes>
                       <lines>
-                        <line target="5" begin_side="Left" end_side="Right" begin_rect="23629, 17283, 71, 20" end_rect="23492, 17268, 70, 20" />
-                        <line target="6" begin_side="Left" end_side="Right" begin_rect="23629, 17283, 71, 20" end_rect="23492, 17298, 70, 20" />
+                        <line target="5" begin_side="Left" end_side="Right" begin_rect="33638, 26437, 71, 20" end_rect="33501, 26422, 70, 20" />
+                        <line target="6" begin_side="Left" end_side="Right" begin_rect="33638, 26437, 71, 20" end_rect="33501, 26452, 70, 20" />
                       </lines>
                     </node>
                   </nodes>
                   <lines />
                 </node>
-                <node id="14" text="热编码" x="140" y="362" width="46" height="21" folded="True" text_b="2, 2, 42, 17" fold_btn_b="126, 366, 13, 13">
+                <node id="14" text="热编码" x="281" y="363" width="46" height="20" folded="True" text_b="2, 2, 42, 16" fold_btn_b="267, 367, 13, 13">
                   <nodes>
-                    <node id="15" text="向量型热编码" x="22839" y="16885" width="83" height="20" text_b="2, 2, 79, 16" />
-                    <node id="16" text="整型热编码" x="22852" y="16915" width="70" height="20" text_b="2, 2, 66, 16" />
+                    <node id="15" text="向量型热编码" x="32848" y="26039" width="83" height="20" text_b="2, 2, 79, 16" />
+                    <node id="16" text="整型热编码" x="32861" y="26069" width="70" height="20" text_b="2, 2, 66, 16" />
                   </nodes>
                   <lines />
                 </node>
               </nodes>
               <lines>
-                <line target="78" begin_side="Left" end_side="Right" begin_rect="253, 269, 71, 21" end_rect="128, 176, 58, 21" />
-                <line target="5" begin_side="Left" end_side="Right" begin_rect="253, 269, 71, 21" end_rect="66, 207, 120, 21" />
-                <line target="4" begin_side="Left" end_side="Right" begin_rect="253, 269, 71, 21" end_rect="66, 238, 120, 21" />
-                <line target="8" begin_side="Left" end_side="Right" begin_rect="253, 269, 71, 21" end_rect="66, 269, 120, 21" />
-                <line target="10" begin_side="Left" end_side="Right" begin_rect="253, 269, 71, 21" end_rect="103, 300, 83, 21" />
-                <line target="13" begin_side="Left" end_side="Right" begin_rect="253, 269, 71, 21" end_rect="42, 331, 144, 21" />
-                <line target="14" begin_side="Left" end_side="Right" begin_rect="253, 269, 71, 21" end_rect="140, 362, 46, 21" />
+                <line target="78" begin_side="Left" end_side="Right" begin_rect="394, 273, 71, 20" end_rect="269, 183, 58, 20" />
+                <line target="5" begin_side="Left" end_side="Right" begin_rect="394, 273, 71, 20" end_rect="207, 213, 120, 20" />
+                <line target="4" begin_side="Left" end_side="Right" begin_rect="394, 273, 71, 20" end_rect="207, 243, 120, 20" />
+                <line target="8" begin_side="Left" end_side="Right" begin_rect="394, 273, 71, 20" end_rect="207, 273, 120, 20" />
+                <line target="10" begin_side="Left" end_side="Right" begin_rect="394, 273, 71, 20" end_rect="244, 303, 83, 20" />
+                <line target="13" begin_side="Left" end_side="Right" begin_rect="394, 273, 71, 20" end_rect="183, 333, 144, 20" />
+                <line target="14" begin_side="Left" end_side="Right" begin_rect="394, 273, 71, 20" end_rect="281, 363, 46, 20" />
               </lines>
             </node>
-            <node id="2" text="使用LSTM建模" x="233" y="521" width="91" height="21" text_b="2, 2, 87, 17" fold_btn_b="219, 525, 13, 13">
+            <node id="2" text="使用LSTM建模" x="382" y="518" width="83" height="20" text_b="2, 2, 79, 16" fold_btn_b="368, 522, 13, 13">
               <nodes>
-                <node id="17" text="存储和调用训练模型" x="33" y="443" width="120" height="21" folded="True" text_b="2, 2, 116, 17" fold_btn_b="19, 447, 13, 13">
+                <node id="17" text="存储和调用训练模型" x="182" y="443" width="120" height="20" folded="True" text_b="2, 2, 116, 16" fold_btn_b="168, 447, 13, 13">
                   <nodes>
-                    <node id="33" text="model.save('')" x="8601" y="7971" width="90" height="21" text_b="2, 2, 86, 17" />
-                    <node id="34" text="model = load_model('')" x="8545" y="8002" width="146" height="21" text_b="2, 2, 142, 17" />
+                    <node id="33" text="model.save('')" x="18610" y="17125" width="90" height="21" text_b="2, 2, 86, 17" />
+                    <node id="34" text="model = load_model('')" x="18554" y="17156" width="146" height="21" text_b="2, 2, 142, 17" />
                   </nodes>
                   <lines />
                 </node>
-                <node id="18" text="过度拟合，欠拟合" x="46" y="474" width="107" height="21" folded="True" text_b="2, 2, 103, 17" fold_btn_b="32, 478, 13, 13">
+                <node id="18" text="过度拟合，欠拟合" x="195" y="473" width="107" height="20" folded="True" text_b="2, 2, 103, 16" fold_btn_b="181, 477, 13, 13">
                   <nodes>
-                    <node id="19" text="多次拟合验证" x="144608" y="76161" width="83" height="20" text_b="2, 2, 79, 16" />
-                    <node id="20" text="过度拟合" x="144608" y="76251" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="144667, 76255, 13, 13">
+                    <node id="19" text="多次拟合验证" x="154617" y="85315" width="83" height="20" text_b="2, 2, 79, 16" />
+                    <node id="20" text="过度拟合" x="154617" y="85405" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="154676, 85409, 13, 13">
                       <nodes>
-                        <node id="21" text="训练组上的性能良好并且持续改进的模型" x="144746" y="76191" width="231" height="20" text_b="2, 2, 227, 16" />
-                        <node id="22" text="验证组上的性能改善到某一点然后开始降级" x="144746" y="76221" width="243" height="20" text_b="2, 2, 239, 16" />
-                        <node id="23" text="训练损失向下倾斜并且验证损失向下倾斜，到达拐点并且再次开始向上倾斜的图中看出" x="144746" y="76251" width="478" height="20" text_b="2, 2, 474, 16" />
-                        <node id="24" text="可能是训练周期过多" x="144746" y="76281" width="120" height="20" text_b="2, 2, 116, 16" />
-                        <node id="25" text="模型训练可以在拐点处停止，或可以增加训练数据的数量" x="144746" y="76311" width="317" height="20" text_b="2, 2, 313, 16" />
+                        <node id="21" text="训练组上的性能良好并且持续改进的模型" x="154755" y="85345" width="231" height="20" text_b="2, 2, 227, 16" />
+                        <node id="22" text="验证组上的性能改善到某一点然后开始降级" x="154755" y="85375" width="243" height="20" text_b="2, 2, 239, 16" />
+                        <node id="23" text="训练损失向下倾斜并且验证损失向下倾斜，到达拐点并且再次开始向上倾斜的图中看出" x="154755" y="85405" width="478" height="20" text_b="2, 2, 474, 16" />
+                        <node id="24" text="可能是训练周期过多" x="154755" y="85435" width="120" height="20" text_b="2, 2, 116, 16" />
+                        <node id="25" text="模型训练可以在拐点处停止，或可以增加训练数据的数量" x="154755" y="85465" width="317" height="20" text_b="2, 2, 313, 16" />
                       </nodes>
                       <lines>
-                        <line target="21" begin_side="Right" end_side="Left" begin_rect="144608, 76251, 71, 20" end_rect="144746, 76191, 231, 20" />
-                        <line target="22" begin_side="Right" end_side="Left" begin_rect="144608, 76251, 71, 20" end_rect="144746, 76221, 243, 20" />
-                        <line target="23" begin_side="Right" end_side="Left" begin_rect="144608, 76251, 71, 20" end_rect="144746, 76251, 478, 20" />
-                        <line target="24" begin_side="Right" end_side="Left" begin_rect="144608, 76251, 71, 20" end_rect="144746, 76281, 120, 20" />
-                        <line target="25" begin_side="Right" end_side="Left" begin_rect="144608, 76251, 71, 20" end_rect="144746, 76311, 317, 20" />
+                        <line target="21" begin_side="Right" end_side="Left" begin_rect="154617, 85405, 71, 20" end_rect="154755, 85345, 231, 20" />
+                        <line target="22" begin_side="Right" end_side="Left" begin_rect="154617, 85405, 71, 20" end_rect="154755, 85375, 243, 20" />
+                        <line target="23" begin_side="Right" end_side="Left" begin_rect="154617, 85405, 71, 20" end_rect="154755, 85405, 478, 20" />
+                        <line target="24" begin_side="Right" end_side="Left" begin_rect="154617, 85405, 71, 20" end_rect="154755, 85435, 120, 20" />
+                        <line target="25" begin_side="Right" end_side="Left" begin_rect="154617, 85405, 71, 20" end_rect="154755, 85465, 317, 20" />
                       </lines>
                     </node>
-                    <node id="26" text="欠拟合" x="144608" y="76386" width="46" height="20" text_b="2, 2, 42, 16" fold_btn_b="144655, 76390, 13, 13">
+                    <node id="26" text="欠拟合" x="154617" y="85540" width="46" height="20" text_b="2, 2, 42, 16" fold_btn_b="154664, 85544, 13, 13">
                       <nodes>
-                        <node id="27" text="训练周期不足" x="144734" y="76371" width="83" height="20" text_b="2, 2, 79, 16" fold_btn_b="144818, 76375, 13, 13">
+                        <node id="27" text="训练周期不足" x="154743" y="85525" width="83" height="20" text_b="2, 2, 79, 16" fold_btn_b="154827, 85529, 13, 13">
                           <nodes>
-                            <node id="28" text="训练损失低于验证损失" x="144897" y="76341" width="132" height="20" text_b="2, 2, 128, 16" />
-                            <node id="29" text="损失具有表明可以进一步改进的趋势" x="144897" y="76371" width="206" height="20" text_b="2, 2, 202, 16" />
-                            <node id="30" text="在训练数据集上表现良好而在测试数据集上表现不佳" x="144897" y="76401" width="293" height="20" text_b="2, 2, 289, 16" />
+                            <node id="28" text="训练损失低于验证损失" x="154906" y="85495" width="132" height="20" text_b="2, 2, 128, 16" />
+                            <node id="29" text="损失具有表明可以进一步改进的趋势" x="154906" y="85525" width="206" height="20" text_b="2, 2, 202, 16" />
+                            <node id="30" text="在训练数据集上表现良好而在测试数据集上表现不佳" x="154906" y="85555" width="293" height="20" text_b="2, 2, 289, 16" />
                           </nodes>
                           <lines>
-                            <line target="28" begin_side="Right" end_side="Left" begin_rect="144734, 76371, 96, 20" end_rect="144897, 76341, 132, 20" />
-                            <line target="29" begin_side="Right" end_side="Left" begin_rect="144734, 76371, 96, 20" end_rect="144897, 76371, 206, 20" />
-                            <line target="30" begin_side="Right" end_side="Left" begin_rect="144734, 76371, 96, 20" end_rect="144897, 76401, 293, 20" />
+                            <line target="28" begin_side="Right" end_side="Left" begin_rect="154743, 85525, 96, 20" end_rect="154906, 85495, 132, 20" />
+                            <line target="29" begin_side="Right" end_side="Left" begin_rect="154743, 85525, 96, 20" end_rect="154906, 85525, 206, 20" />
+                            <line target="30" begin_side="Right" end_side="Left" begin_rect="154743, 85525, 96, 20" end_rect="154906, 85555, 293, 20" />
                           </lines>
                         </node>
-                        <node id="31" text="隐藏层节点太少" x="144734" y="76431" width="95" height="20" text_b="2, 2, 91, 16" fold_btn_b="144830, 76435, 13, 13">
+                        <node id="31" text="隐藏层节点太少" x="154743" y="85585" width="95" height="20" text_b="2, 2, 91, 16" fold_btn_b="154839, 85589, 13, 13">
                           <nodes>
-                            <node id="32" text="训练集上的表现优于验证集并且性能已经趋于平稳" x="144909" y="76431" width="280" height="20" text_b="2, 2, 276, 16" />
+                            <node id="32" text="训练集上的表现优于验证集并且性能已经趋于平稳" x="154918" y="85585" width="280" height="20" text_b="2, 2, 276, 16" />
                           </nodes>
                           <lines>
-                            <line target="32" begin_side="Right" end_side="Left" begin_rect="144734, 76431, 108, 20" end_rect="144909, 76431, 280, 20" />
+                            <line target="32" begin_side="Right" end_side="Left" begin_rect="154743, 85585, 108, 20" end_rect="154918, 85585, 280, 20" />
                           </lines>
                         </node>
                       </nodes>
                       <lines>
-                        <line target="27" begin_side="Right" end_side="Left" begin_rect="144608, 76386, 59, 20" end_rect="144734, 76371, 83, 20" />
-                        <line target="31" begin_side="Right" end_side="Left" begin_rect="144608, 76386, 59, 20" end_rect="144734, 76431, 95, 20" />
+                        <line target="27" begin_side="Right" end_side="Left" begin_rect="154617, 85540, 59, 20" end_rect="154743, 85525, 83, 20" />
+                        <line target="31" begin_side="Right" end_side="Left" begin_rect="154617, 85540, 59, 20" end_rect="154743, 85585, 95, 20" />
                       </lines>
                     </node>
                   </nodes>
                   <lines />
                 </node>
-                <node id="1" text="CNN-LSTM网络" x="53" y="505" width="100" height="21" folded="True" text_b="2, 2, 96, 17" fold_btn_b="39, 509, 13, 13">
+                <node id="1" text="CNN-LSTM网络" x="219" y="503" width="83" height="20" folded="True" text_b="2, 2, 79, 16" fold_btn_b="205, 507, 13, 13">
                   <nodes>
-                    <node id="35" text="CNN LSTM架构" x="144768" y="76893" width="83" height="20" text_b="2, 2, 79, 16" fold_btn_b="144852, 76897, 13, 13">
+                    <node id="35" text="CNN LSTM架构" x="154777" y="86047" width="83" height="20" text_b="2, 2, 79, 16" fold_btn_b="154861, 86051, 13, 13">
                       <nodes>
-                        <node id="36" text="使用卷积神经网络（CNN）层来对与LSTM组合的输入数据进行特征提取以支持序列预测" x="144931" y="76864" width="472" height="20" text_b="2, 2, 468, 16" />
-                        <node id="37" text="这种架构最初被称为长期循环卷积网络或LRCN模型" x="144931" y="76894" width="280" height="20" text_b="2, 2, 276, 16" />
-                        <node id="38" text="Input-&gt;CNN-&gt;LSTM-&gt;Dense-&gt;Output" x="144931" y="76924" width="200" height="18" text_b="2, 2, 196, 14" />
+                        <node id="36" text="使用卷积神经网络（CNN）层来对与LSTM组合的输入数据进行特征提取以支持序列预测" x="154940" y="86018" width="472" height="20" text_b="2, 2, 468, 16" />
+                        <node id="37" text="这种架构最初被称为长期循环卷积网络或LRCN模型" x="154940" y="86048" width="280" height="20" text_b="2, 2, 276, 16" />
+                        <node id="38" text="Input-&gt;CNN-&gt;LSTM-&gt;Dense-&gt;Output" x="154940" y="86078" width="200" height="18" text_b="2, 2, 196, 14" />
                       </nodes>
                       <lines>
-                        <line target="36" begin_side="Right" end_side="Left" begin_rect="144768, 76893, 96, 20" end_rect="144931, 76864, 472, 20" />
-                        <line target="37" begin_side="Right" end_side="Left" begin_rect="144768, 76893, 96, 20" end_rect="144931, 76894, 280, 20" />
-                        <line target="38" begin_side="Right" end_side="Left" begin_rect="144768, 76893, 96, 20" end_rect="144931, 76924, 200, 18" />
+                        <line target="36" begin_side="Right" end_side="Left" begin_rect="154777, 86047, 96, 20" end_rect="154940, 86018, 472, 20" />
+                        <line target="37" begin_side="Right" end_side="Left" begin_rect="154777, 86047, 96, 20" end_rect="154940, 86048, 280, 20" />
+                        <line target="38" begin_side="Right" end_side="Left" begin_rect="154777, 86047, 96, 20" end_rect="154940, 86078, 200, 18" />
                       </lines>
                     </node>
-                    <node id="39" text="在Keras实施CNN LSTM" x="144768" y="77010" width="126" height="20" text_b="2, 2, 122, 16" fold_btn_b="144895, 77014, 13, 13">
+                    <node id="39" text="在Keras实施CNN LSTM" x="154777" y="86164" width="126" height="20" text_b="2, 2, 122, 16" fold_btn_b="154904, 86168, 13, 13">
                       <nodes>
-                        <node id="40" text="CNN-LSTM" x="144974" y="76953" width="58" height="18" folded="True" text_b="2, 2, 54, 14" fold_btn_b="145033, 76956, 13, 13">
+                        <node id="40" text="CNN-LSTM" x="154983" y="86107" width="58" height="18" folded="True" text_b="2, 2, 54, 14" fold_btn_b="155042, 86110, 13, 13">
                           <nodes>
-                            <node id="41" text="model = Sequential()&#xD;&#xA;# define CNN model&#xD;&#xA;model.add(TimeDistributed(Conv2D(...))&#xD;&#xA;model.add(TimeDistributed(MaxPooling2D(...)))&#xD;&#xA;model.add(TimeDistributed(Flatten()))&#xD;&#xA;# define LSTM model&#xD;&#xA;model.add(LSTM(...))&#xD;&#xA;model.add(Dense(...))" x="145480" y="77991" width="287" height="115" text_b="2, 2, 283, 111" />
-                            <node id="42" text="# define CNN model&#xD;&#xA;cnn = Sequential()&#xD;&#xA;cnn.add(Conv2D(...))&#xD;&#xA;cnn.add(MaxPooling2D(...))&#xD;&#xA;cnn.add(Flatten())&#xD;&#xA;# define LSTM model&#xD;&#xA;model = Sequential()&#xD;&#xA;model.add(TimeDistributed(cnn, ...))&#xD;&#xA;model.add(LSTM(..))&#xD;&#xA;model.add(Dense(...))" x="145480" y="78116" width="231" height="143" text_b="2, 2, 227, 139" />
+                            <node id="41" text="model = Sequential()&#xD;&#xA;# define CNN model&#xD;&#xA;model.add(TimeDistributed(Conv2D(...))&#xD;&#xA;model.add(TimeDistributed(MaxPooling2D(...)))&#xD;&#xA;model.add(TimeDistributed(Flatten()))&#xD;&#xA;# define LSTM model&#xD;&#xA;model.add(LSTM(...))&#xD;&#xA;model.add(Dense(...))" x="155489" y="87145" width="287" height="115" text_b="2, 2, 283, 111" />
+                            <node id="42" text="# define CNN model&#xD;&#xA;cnn = Sequential()&#xD;&#xA;cnn.add(Conv2D(...))&#xD;&#xA;cnn.add(MaxPooling2D(...))&#xD;&#xA;cnn.add(Flatten())&#xD;&#xA;# define LSTM model&#xD;&#xA;model = Sequential()&#xD;&#xA;model.add(TimeDistributed(cnn, ...))&#xD;&#xA;model.add(LSTM(..))&#xD;&#xA;model.add(Dense(...))" x="155489" y="87270" width="231" height="143" text_b="2, 2, 227, 139" />
                           </nodes>
                           <lines />
                         </node>
-                        <node id="43" text="CNN" x="144974" y="76981" width="27" height="18" folded="True" text_b="2, 2, 23, 14" fold_btn_b="145002, 76984, 13, 13">
+                        <node id="43" text="CNN" x="154983" y="86135" width="27" height="18" folded="True" text_b="2, 2, 23, 14" fold_btn_b="155011, 86138, 13, 13">
                           <nodes>
-                            <node id="44" text="cnn = Sequential()&#xD;&#xA;cnn.add(Conv2D(1, (2,2), activation='relu', padding='same', input_shape=(10,10,1)))&#xD;&#xA;cnn.add(MaxPooling2D(pool_size=(2, 2)))&#xD;&#xA;cnn.add(Flatten())" x="146001" y="79717" width="522" height="61" text_b="2, 2, 518, 57" />
-                            <node id="45" text="可以定义一个2D卷积网络，它由Conv2D和MaxPooling2D层组成，这些层被排列成所需深度的堆栈" x="146001" y="79788" width="528" height="20" text_b="2, 2, 524, 16" />
+                            <node id="44" text="cnn = Sequential()&#xD;&#xA;cnn.add(Conv2D(1, (2,2), activation='relu', padding='same', input_shape=(10,10,1)))&#xD;&#xA;cnn.add(MaxPooling2D(pool_size=(2, 2)))&#xD;&#xA;cnn.add(Flatten())" x="156010" y="88871" width="522" height="61" text_b="2, 2, 518, 57" />
+                            <node id="45" text="可以定义一个2D卷积网络，它由Conv2D和MaxPooling2D层组成，这些层被排列成所需深度的堆栈" x="156010" y="88942" width="528" height="20" text_b="2, 2, 524, 16" />
                           </nodes>
                           <lines />
                         </node>
-                        <node id="46" text="LSTM" x="144974" y="77009" width="33" height="18" folded="True" text_b="2, 2, 29, 14" fold_btn_b="145008, 77012, 13, 13">
+                        <node id="46" text="LSTM" x="154983" y="86163" width="33" height="18" folded="True" text_b="2, 2, 29, 14" fold_btn_b="155017, 86166, 13, 13">
                           <nodes>
-                            <node id="47" text="model.add(TimeDistributed(...))&#xD;&#xA;model.add(LSTM(...))&#xD;&#xA;model.add(Dense(...))" x="145271" y="77514" width="200" height="47" text_b="2, 2, 196, 43" />
-                            <node id="48" text="我们希望将CNN模型应用于每个输入图像，并将每个输入图像的输出作为单个时间步骤传递给LSTM" x="145271" y="77571" width="534" height="20" text_b="2, 2, 530, 16" />
+                            <node id="47" text="model.add(TimeDistributed(...))&#xD;&#xA;model.add(LSTM(...))&#xD;&#xA;model.add(Dense(...))" x="155280" y="86668" width="200" height="47" text_b="2, 2, 196, 43" />
+                            <node id="48" text="我们希望将CNN模型应用于每个输入图像，并将每个输入图像的输出作为单个时间步骤传递给LSTM" x="155280" y="86725" width="534" height="20" text_b="2, 2, 530, 16" />
                           </nodes>
                           <lines />
                         </node>
-                        <node id="49" text="通过在前端添加CNN层，然后在输出上添加具有Dense层的LSTM层来定义CNN LSTM" x="144974" y="77037" width="441" height="20" text_b="2, 2, 437, 16" />
-                        <node id="50" text="用于特征提取的CNN模型和用于跨时间步骤解释特征的LSTM模型" x="144974" y="77067" width="348" height="20" text_b="2, 2, 344, 16" />
+                        <node id="49" text="通过在前端添加CNN层，然后在输出上添加具有Dense层的LSTM层来定义CNN LSTM" x="154983" y="86191" width="441" height="20" text_b="2, 2, 437, 16" />
+                        <node id="50" text="用于特征提取的CNN模型和用于跨时间步骤解释特征的LSTM模型" x="154983" y="86221" width="348" height="20" text_b="2, 2, 344, 16" />
                       </nodes>
                       <lines>
-                        <line target="40" begin_side="Right" end_side="Left" begin_rect="144768, 77010, 139, 20" end_rect="144974, 76953, 58, 18" />
-                        <line target="43" begin_side="Right" end_side="Left" begin_rect="144768, 77010, 139, 20" end_rect="144974, 76981, 27, 18" />
-                        <line target="46" begin_side="Right" end_side="Left" begin_rect="144768, 77010, 139, 20" end_rect="144974, 77009, 33, 18" />
-                        <line target="49" begin_side="Right" end_side="Left" begin_rect="144768, 77010, 139, 20" end_rect="144974, 77037, 441, 20" />
-                        <line target="50" begin_side="Right" end_side="Left" begin_rect="144768, 77010, 139, 20" end_rect="144974, 77067, 348, 20" />
+                        <line target="40" begin_side="Right" end_side="Left" begin_rect="154777, 86164, 139, 20" end_rect="154983, 86107, 58, 18" />
+                        <line target="43" begin_side="Right" end_side="Left" begin_rect="154777, 86164, 139, 20" end_rect="154983, 86135, 27, 18" />
+                        <line target="46" begin_side="Right" end_side="Left" begin_rect="154777, 86164, 139, 20" end_rect="154983, 86163, 33, 18" />
+                        <line target="49" begin_side="Right" end_side="Left" begin_rect="154777, 86164, 139, 20" end_rect="154983, 86191, 441, 20" />
+                        <line target="50" begin_side="Right" end_side="Left" begin_rect="154777, 86164, 139, 20" end_rect="154983, 86221, 348, 20" />
                       </lines>
                     </node>
                   </nodes>
                   <lines />
                 </node>
-                <node id="2" text="EnCode-DeCode网络" x="22" y="536" width="131" height="21" folded="True" text_b="2, 2, 127, 17" fold_btn_b="8, 540, 13, 13">
+                <node id="2" text="EnCode-DeCode网络" x="188" y="533" width="114" height="20" folded="True" text_b="2, 2, 110, 16" fold_btn_b="174, 537, 13, 13">
                   <nodes>
-                    <node id="63" text="实现" x="9294" y="8462" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="9280, 8466, 13, 13">
+                    <node id="63" text="实现" x="19303" y="17616" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="19289, 17620, 13, 13">
                       <nodes>
-                        <node id="64" text="model.add(LSTM(..., return_sequences=True))&#xD;&#xA;model.add(TimeDistributed(Dense(...)))" x="146568" y="81924" width="274" height="33" text_b="2, 2, 270, 29" />
-                        <node id="65" text="model = Sequential()&#xD;&#xA;model.add(LSTM(..., input_shape=(...)))" x="146568" y="81967" width="250" height="33" text_b="2, 2, 246, 29" />
+                        <node id="64" text="model.add(LSTM(..., return_sequences=True))&#xD;&#xA;model.add(TimeDistributed(Dense(...)))" x="156577" y="91078" width="274" height="33" text_b="2, 2, 270, 29" />
+                        <node id="65" text="model = Sequential()&#xD;&#xA;model.add(LSTM(..., input_shape=(...)))" x="156577" y="91121" width="250" height="33" text_b="2, 2, 246, 29" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="66" text="应用" x="9294" y="8493" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="9280, 8497, 13, 13">
+                    <node id="66" text="应用" x="19303" y="17647" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="19289, 17651, 13, 13">
                       <nodes>
-                        <node id="67" text="机器翻译，例如英语到法语的短语翻译" x="178586" y="102491" width="219" height="20" text_b="2, 2, 215, 16" />
-                        <node id="68" text="学习执行，例如计算小程序的结果。" x="178599" y="102521" width="206" height="20" text_b="2, 2, 202, 16" />
-                        <node id="69" text="图像标题，例如生成图像的文本描述" x="178599" y="102551" width="206" height="20" text_b="2, 2, 202, 16" />
-                        <node id="70" text="会话建模，例如生成文本问题的答案" x="178599" y="102581" width="206" height="20" text_b="2, 2, 202, 16" />
-                        <node id="71" text="运动分类，例如从一系列手势生成一系列命令" x="178549" y="102611" width="256" height="20" text_b="2, 2, 252, 16" />
+                        <node id="67" text="机器翻译，例如英语到法语的短语翻译" x="188595" y="111645" width="219" height="20" text_b="2, 2, 215, 16" />
+                        <node id="68" text="学习执行，例如计算小程序的结果。" x="188608" y="111675" width="206" height="20" text_b="2, 2, 202, 16" />
+                        <node id="69" text="图像标题，例如生成图像的文本描述" x="188608" y="111705" width="206" height="20" text_b="2, 2, 202, 16" />
+                        <node id="70" text="会话建模，例如生成文本问题的答案" x="188608" y="111735" width="206" height="20" text_b="2, 2, 202, 16" />
+                        <node id="71" text="运动分类，例如从一系列手势生成一系列命令" x="188558" y="111765" width="256" height="20" text_b="2, 2, 252, 16" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="72" text="架构" x="9294" y="8524" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="9280, 8528, 13, 13">
+                    <node id="72" text="架构" x="19303" y="17678" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="19289, 17682, 13, 13">
                       <nodes>
-                        <node id="73" text="编码器将可变长度源序列映射到固定长度矢量，并且解码器将矢量表示映射回可变长度目标序列" x="11858" y="9621" width="528" height="21" text_b="2, 2, 524, 17" />
-                        <node id="74" text="一个用于读取输入序列并将其编码为固定长度矢量，第二个用于解码固定长度矢量并输出预测序列,专门针对seq2seq问题而设计" x="11683" y="9652" width="703" height="21" text_b="2, 2, 699, 17" />
-                        <node id="75" text="该方法也已用于图像输入，其中卷积神经网络用作输入图像上的特征提取器，然后由解码器LSTM读取" x="11826" y="9683" width="560" height="21" text_b="2, 2, 556, 17" />
-                        <node id="62" text="Input-&gt;Encoder-&gt;Decoder-&gt;Dense-&gt;Output" x="12111" y="9714" width="275" height="21" text_b="2, 2, 271, 17" />
+                        <node id="73" text="编码器将可变长度源序列映射到固定长度矢量，并且解码器将矢量表示映射回可变长度目标序列" x="21867" y="18775" width="528" height="21" text_b="2, 2, 524, 17" />
+                        <node id="74" text="一个用于读取输入序列并将其编码为固定长度矢量，第二个用于解码固定长度矢量并输出预测序列,专门针对seq2seq问题而设计" x="21692" y="18806" width="703" height="21" text_b="2, 2, 699, 17" />
+                        <node id="75" text="该方法也已用于图像输入，其中卷积神经网络用作输入图像上的特征提取器，然后由解码器LSTM读取" x="21835" y="18837" width="560" height="21" text_b="2, 2, 556, 17" />
+                        <node id="62" text="Input-&gt;Encoder-&gt;Decoder-&gt;Dense-&gt;Output" x="22120" y="18868" width="275" height="21" text_b="2, 2, 271, 17" />
                       </nodes>
                       <lines />
                     </node>
                   </nodes>
                   <lines />
                 </node>
-                <node id="3" text="堆叠LSTM网络层" x="50" y="567" width="103" height="21" folded="True" text_b="2, 2, 99, 17" fold_btn_b="36, 571, 13, 13">
+                <node id="3" text="堆叠LSTM网络层" x="207" y="563" width="95" height="20" folded="True" text_b="2, 2, 91, 16" fold_btn_b="193, 567, 13, 13">
                   <nodes>
-                    <node id="51" text="LSTM架构" x="11133" y="9287" width="66" height="21" text_b="2, 2, 62, 17" fold_btn_b="11119, 9291, 13, 13">
+                    <node id="51" text="LSTM架构" x="21142" y="18441" width="66" height="21" text_b="2, 2, 62, 17" fold_btn_b="21128, 18445, 13, 13">
                       <nodes>
-                        <node id="52" text="Input-&gt;LSTM-&gt;LSTM-&gt;Dense-&gt;Output" x="10811" y="9240" width="242" height="21" text_b="2, 2, 238, 17" />
-                        <node id="53" text="堆叠式LSTM架构可以定义为由多个LSTM层组成的LSTM模型" x="10712" y="9271" width="341" height="21" text_b="2, 2, 337, 17" />
-                        <node id="54" text="上面的LSTM层提供序列输出而不是单个值输出到下面的LSTM层" x="10695" y="9302" width="358" height="21" text_b="2, 2, 354, 17" />
-                        <node id="55" text="允许每个级别的隐藏状态在不同的时间尺度上操作" x="10773" y="9333" width="280" height="21" text_b="2, 2, 276, 17" />
+                        <node id="52" text="Input-&gt;LSTM-&gt;LSTM-&gt;Dense-&gt;Output" x="20820" y="18394" width="242" height="21" text_b="2, 2, 238, 17" />
+                        <node id="53" text="堆叠式LSTM架构可以定义为由多个LSTM层组成的LSTM模型" x="20721" y="18425" width="341" height="21" text_b="2, 2, 337, 17" />
+                        <node id="54" text="上面的LSTM层提供序列输出而不是单个值输出到下面的LSTM层" x="20704" y="18456" width="358" height="21" text_b="2, 2, 354, 17" />
+                        <node id="55" text="允许每个级别的隐藏状态在不同的时间尺度上操作" x="20782" y="18487" width="280" height="21" text_b="2, 2, 276, 17" />
                       </nodes>
                       <lines>
-                        <line target="52" begin_side="Left" end_side="Right" begin_rect="11120, 9287, 79, 21" end_rect="10811, 9240, 242, 21" />
-                        <line target="53" begin_side="Left" end_side="Right" begin_rect="11120, 9287, 79, 21" end_rect="10712, 9271, 341, 21" />
-                        <line target="54" begin_side="Left" end_side="Right" begin_rect="11120, 9287, 79, 21" end_rect="10695, 9302, 358, 21" />
-                        <line target="55" begin_side="Left" end_side="Right" begin_rect="11120, 9287, 79, 21" end_rect="10773, 9333, 280, 21" />
+                        <line target="52" begin_side="Left" end_side="Right" begin_rect="21129, 18441, 79, 21" end_rect="20820, 18394, 242, 21" />
+                        <line target="53" begin_side="Left" end_side="Right" begin_rect="21129, 18441, 79, 21" end_rect="20721, 18425, 341, 21" />
+                        <line target="54" begin_side="Left" end_side="Right" begin_rect="21129, 18441, 79, 21" end_rect="20704, 18456, 358, 21" />
+                        <line target="55" begin_side="Left" end_side="Right" begin_rect="21129, 18441, 79, 21" end_rect="20782, 18487, 280, 21" />
                       </lines>
                     </node>
-                    <node id="56" text="Keras实现" x="11134" y="9364" width="65" height="21" folded="True" text_b="2, 2, 61, 17" fold_btn_b="11120, 9368, 13, 13">
+                    <node id="56" text="Keras实现" x="21143" y="18518" width="65" height="21" folded="True" text_b="2, 2, 61, 17" fold_btn_b="21129, 18522, 13, 13">
                       <nodes>
-                        <node id="57" text="model = Sequential()&#xD;&#xA;model.add(LSTM(..., return_sequences=True, input_shape=(...)))&#xD;&#xA;model.add(LSTM(..., return_sequences=True))&#xD;&#xA;model.add(LSTM(..., return_sequences=True))&#xD;&#xA;model.add(LSTM(...))&#xD;&#xA;model.add(Dense(...))" x="146212" y="81090" width="392" height="88" text_b="2, 2, 388, 84" />
+                        <node id="57" text="model = Sequential()&#xD;&#xA;model.add(LSTM(..., return_sequences=True, input_shape=(...)))&#xD;&#xA;model.add(LSTM(..., return_sequences=True))&#xD;&#xA;model.add(LSTM(..., return_sequences=True))&#xD;&#xA;model.add(LSTM(...))&#xD;&#xA;model.add(Dense(...))" x="156221" y="90244" width="392" height="88" text_b="2, 2, 388, 84" />
                       </nodes>
                       <lines />
                     </node>
-                    <node id="58" text="为什么要增加深度" x="11092" y="9426" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="11078, 9430, 13, 13">
+                    <node id="58" text="为什么要增加深度" x="21101" y="18580" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="21087, 18584, 13, 13">
                       <nodes>
-                        <node id="59" text="附加隐藏层被理解为重新组合来自先前层的学习模型并在高抽象级别创建新模型" x="10571" y="9395" width="441" height="21" text_b="2, 2, 437, 17" />
-                        <node id="60" text="从线到形状到对象" x="10905" y="9426" width="107" height="21" text_b="2, 2, 103, 17" />
-                        <node id="61" text="增加网络的深度，需要更少的神经元和更快的训练" x="10732" y="9457" width="280" height="21" text_b="2, 2, 276, 17" />
+                        <node id="59" text="附加隐藏层被理解为重新组合来自先前层的学习模型并在高抽象级别创建新模型" x="20580" y="18549" width="441" height="21" text_b="2, 2, 437, 17" />
+                        <node id="60" text="从线到形状到对象" x="20914" y="18580" width="107" height="21" text_b="2, 2, 103, 17" />
+                        <node id="61" text="增加网络的深度，需要更少的神经元和更快的训练" x="20741" y="18611" width="280" height="21" text_b="2, 2, 276, 17" />
                       </nodes>
                       <lines>
-                        <line target="59" begin_side="Left" end_side="Right" begin_rect="11079, 9426, 120, 21" end_rect="10571, 9395, 441, 21" />
-                        <line target="60" begin_side="Left" end_side="Right" begin_rect="11079, 9426, 120, 21" end_rect="10905, 9426, 107, 21" />
-                        <line target="61" begin_side="Left" end_side="Right" begin_rect="11079, 9426, 120, 21" end_rect="10732, 9457, 280, 21" />
+                        <line target="59" begin_side="Left" end_side="Right" begin_rect="21088, 18580, 120, 21" end_rect="20580, 18549, 441, 21" />
+                        <line target="60" begin_side="Left" end_side="Right" begin_rect="21088, 18580, 120, 21" end_rect="20914, 18580, 107, 21" />
+                        <line target="61" begin_side="Left" end_side="Right" begin_rect="21088, 18580, 120, 21" end_rect="20741, 18611, 280, 21" />
                       </lines>
                     </node>
                   </nodes>
                   <lines />
                 </node>
-                <node id="4" text="生成性长短期记忆网络" x="21" y="598" width="132" height="21" folded="True" text_b="2, 2, 128, 17" fold_btn_b="7, 602, 13, 13">
+                <node id="4" text="生成性长短期记忆网络" x="170" y="593" width="132" height="20" folded="True" text_b="2, 2, 128, 16" fold_btn_b="156, 597, 13, 13">
                   <nodes>
-                    <node id="76" text="对自然语言热编码，通过网络进行学习" x="9839" y="8968" width="219" height="21" text_b="2, 2, 215, 17" />
-                    <node id="77" text="生成性建模一般用于文本建模" x="9889" y="8999" width="169" height="21" text_b="2, 2, 165, 17" />
+                    <node id="76" text="对自然语言热编码，通过网络进行学习" x="19848" y="18122" width="219" height="21" text_b="2, 2, 215, 17" />
+                    <node id="77" text="生成性建模一般用于文本建模" x="19898" y="18153" width="169" height="21" text_b="2, 2, 165, 17" />
                   </nodes>
                   <lines />
                 </node>
               </nodes>
               <lines>
-                <line target="17" begin_side="Left" end_side="Right" begin_rect="220, 521, 104, 21" end_rect="33, 443, 120, 21" />
-                <line target="18" begin_side="Left" end_side="Right" begin_rect="220, 521, 104, 21" end_rect="46, 474, 107, 21" />
-                <line target="1" begin_side="Left" end_side="Right" begin_rect="220, 521, 104, 21" end_rect="53, 505, 100, 21" />
-                <line target="2" begin_side="Left" end_side="Right" begin_rect="220, 521, 104, 21" end_rect="22, 536, 131, 21" />
-                <line target="3" begin_side="Left" end_side="Right" begin_rect="220, 521, 104, 21" end_rect="50, 567, 103, 21" />
-                <line target="4" begin_side="Left" end_side="Right" begin_rect="220, 521, 104, 21" end_rect="21, 598, 132, 21" />
+                <line target="17" begin_side="Left" end_side="Right" begin_rect="369, 518, 96, 20" end_rect="182, 443, 120, 20" />
+                <line target="18" begin_side="Left" end_side="Right" begin_rect="369, 518, 96, 20" end_rect="195, 473, 107, 20" />
+                <line target="1" begin_side="Left" end_side="Right" begin_rect="369, 518, 96, 20" end_rect="219, 503, 83, 20" />
+                <line target="2" begin_side="Left" end_side="Right" begin_rect="369, 518, 96, 20" end_rect="188, 533, 114, 20" />
+                <line target="3" begin_side="Left" end_side="Right" begin_rect="369, 518, 96, 20" end_rect="207, 563, 95, 20" />
+                <line target="4" begin_side="Left" end_side="Right" begin_rect="369, 518, 96, 20" end_rect="170, 593, 132, 20" />
               </lines>
             </node>
-            <node id="91" text="LSTM特性" x="545" y="387" width="66" height="21" text_b="2, 2, 62, 17" fold_btn_b="612, 391, 13, 13">
+            <node id="91" text="LSTM特性" x="678" y="388" width="58" height="20" text_b="2, 2, 54, 16" fold_btn_b="737, 392, 13, 13">
               <nodes>
-                <node id="92" text="TimeDistributed包装层" x="691" y="309" width="141" height="21" text_b="2, 2, 137, 17" fold_btn_b="833, 313, 13, 13">
+                <node id="92" text="TimeDistributed包装层" x="816" y="358" width="138" height="20" folded="True" text_b="2, 2, 134, 16" fold_btn_b="955, 362, 13, 13">
                   <nodes>
-                    <node id="1" text="多对多" x="912" y="278" width="46" height="21" text_b="2, 2, 42, 17" />
-                    <node id="2" text="多对一" x="912" y="309" width="46" height="21" text_b="2, 2, 42, 17" />
-                    <node id="3" text="一对一" x="912" y="340" width="46" height="21" text_b="2, 2, 42, 17" />
+                    <node id="1" text="输入-&gt;输出" x="2377" y="1462" width="70" height="20" text_b="2, 2, 66, 16" fold_btn_b="2448, 1466, 13, 13">
+                      <nodes>
+                        <node id="1" text="多对多" x="2527" y="1432" width="46" height="20" text_b="2, 2, 42, 16" />
+                        <node id="2" text="多对一" x="2527" y="1462" width="46" height="20" text_b="2, 2, 42, 16" />
+                        <node id="3" text="一对一" x="2527" y="1492" width="46" height="20" text_b="2, 2, 42, 16" />
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Right" end_side="Left" begin_rect="2377, 1462, 83, 20" end_rect="2527, 1432, 46, 20" />
+                        <line target="2" begin_side="Right" end_side="Left" begin_rect="2377, 1462, 83, 20" end_rect="2527, 1462, 46, 20" />
+                        <line target="3" begin_side="Right" end_side="Left" begin_rect="2377, 1462, 83, 20" end_rect="2527, 1492, 46, 20" />
+                      </lines>
+                    </node>
+                    <node id="2" text="参数" x="2377" y="1552" width="33" height="20" text_b="2, 2, 29, 16" fold_btn_b="2411, 1556, 13, 13">
+                      <nodes>
+                        <node id="3" text="输出是3D" x="2490" y="1522" width="58" height="20" text_b="2, 2, 54, 16" />
+                        <node id="4" text="输入至少是3D" x="2490" y="1552" width="83" height="20" text_b="2, 2, 79, 16" />
+                        <node id="5" text="通过设置return_sequences来返回序列" x="2490" y="1582" width="219" height="20" text_b="2, 2, 215, 16" />
+                      </nodes>
+                      <lines>
+                        <line target="3" begin_side="Right" end_side="Left" begin_rect="2377, 1552, 46, 20" end_rect="2490, 1522, 58, 20" />
+                        <line target="4" begin_side="Right" end_side="Left" begin_rect="2377, 1552, 46, 20" end_rect="2490, 1552, 83, 20" />
+                        <line target="5" begin_side="Right" end_side="Left" begin_rect="2377, 1552, 46, 20" end_rect="2490, 1582, 219, 20" />
+                      </lines>
+                    </node>
                   </nodes>
-                  <lines>
-                    <line target="1" begin_side="Right" end_side="Left" begin_rect="691, 309, 154, 21" end_rect="912, 278, 46, 21" />
-                    <line target="2" begin_side="Right" end_side="Left" begin_rect="691, 309, 154, 21" end_rect="912, 309, 46, 21" />
-                    <line target="3" begin_side="Right" end_side="Left" begin_rect="691, 309, 154, 21" end_rect="912, 340, 46, 21" />
-                  </lines>
+                  <lines />
                 </node>
-                <node id="93" text="有状态的网络" x="691" y="402" width="83" height="21" text_b="2, 2, 79, 17" fold_btn_b="775, 406, 13, 13">
+                <node id="93" text="有状态的网络" x="816" y="388" width="83" height="20" folded="True" text_b="2, 2, 79, 16" fold_btn_b="900, 392, 13, 13">
                   <nodes>
-                    <node id="4" text="本次的状态作为下次的初始状态" x="854" y="371" width="181" height="21" text_b="2, 2, 177, 17" />
-                    <node id="5" text="通过设置参数，记录网络状态stateful=True" x="854" y="402" width="249" height="21" text_b="2, 2, 245, 17" />
-                    <node id="6" text="必须用batch_input_shape来定义输入结构" x="854" y="433" width="242" height="21" text_b="2, 2, 238, 17" />
+                    <node id="4" text="本次的状态作为下次的初始状态" x="1901" y="1139" width="181" height="20" text_b="2, 2, 177, 16" />
+                    <node id="5" text="通过设置参数，记录网络状态stateful=True" x="1901" y="1169" width="250" height="20" text_b="2, 2, 246, 16" />
+                    <node id="6" text="必须用batch_input_shape来定义输入结构" x="1901" y="1199" width="237" height="20" text_b="2, 2, 233, 16" />
                   </nodes>
-                  <lines>
-                    <line target="4" begin_side="Right" end_side="Left" begin_rect="691, 402, 96, 21" end_rect="854, 371, 181, 21" />
-                    <line target="5" begin_side="Right" end_side="Left" begin_rect="691, 402, 96, 21" end_rect="854, 402, 249, 21" />
-                    <line target="6" begin_side="Right" end_side="Left" begin_rect="691, 402, 96, 21" end_rect="854, 433, 242, 21" />
-                  </lines>
+                  <lines />
                 </node>
-                <node id="94" text="序列到序列的预测" x="691" y="480" width="107" height="21" text_b="2, 2, 103, 17" fold_btn_b="799, 484, 13, 13">
+                <node id="94" text="序列到序列的预测" x="816" y="418" width="107" height="20" folded="True" text_b="2, 2, 103, 16" fold_btn_b="924, 422, 13, 13">
                   <nodes>
-                    <node id="7" text="序列回声构造" x="878" y="464" width="83" height="21" text_b="2, 2, 79, 17" />
-                    <node id="8" text="编码器-解码器LSTM" x="878" y="495" width="121" height="21" text_b="2, 2, 117, 17" />
+                    <node id="7" text="序列回声构造" x="1492" y="801" width="83" height="20" text_b="2, 2, 79, 16" />
+                    <node id="8" text="编码器-解码器LSTM" x="1492" y="831" width="114" height="20" text_b="2, 2, 110, 16" />
                   </nodes>
-                  <lines>
-                    <line target="7" begin_side="Right" end_side="Left" begin_rect="691, 480, 120, 21" end_rect="878, 464, 83, 21" />
-                    <line target="8" begin_side="Right" end_side="Left" begin_rect="691, 480, 120, 21" end_rect="878, 495, 121, 21" />
-                  </lines>
+                  <lines />
                 </node>
               </nodes>
               <lines>
-                <line target="92" begin_side="Right" end_side="Left" begin_rect="545, 387, 79, 21" end_rect="691, 309, 141, 21" />
-                <line target="93" begin_side="Right" end_side="Left" begin_rect="545, 387, 79, 21" end_rect="691, 402, 83, 21" />
-                <line target="94" begin_side="Right" end_side="Left" begin_rect="545, 387, 79, 21" end_rect="691, 480, 107, 21" />
+                <line target="92" begin_side="Right" end_side="Left" begin_rect="678, 388, 71, 20" end_rect="816, 358, 138, 20" />
+                <line target="93" begin_side="Right" end_side="Left" begin_rect="678, 388, 71, 20" end_rect="816, 388, 83, 20" />
+                <line target="94" begin_side="Right" end_side="Left" begin_rect="678, 388, 71, 20" end_rect="816, 418, 107, 20" />
               </lines>
             </node>
           </nodes>
           <lines>
-            <line target="3" begin_side="Left" end_side="Right" begin_rect="404, 377, 61, 41" end_rect="266, 269, 58, 21" />
-            <line target="2" begin_side="Left" end_side="Right" begin_rect="404, 377, 61, 41" end_rect="233, 521, 91, 21" />
-            <line target="91" begin_side="Right" end_side="Left" begin_rect="404, 377, 61, 41" end_rect="545, 387, 66, 21" />
+            <line target="3" begin_side="Left" end_side="Right" begin_rect="545, 379, 53, 38" end_rect="407, 273, 58, 20" />
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="545, 379, 53, 38" end_rect="382, 518, 83, 20" />
+            <line target="91" begin_side="Right" end_side="Left" begin_rect="545, 379, 53, 38" end_rect="678, 388, 58, 20" />
           </lines>
         </node>
       </nodes>
